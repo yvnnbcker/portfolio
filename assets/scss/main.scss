@@ -221,3 +221,14 @@ header {
         text-align: center;
     }
 }
+
+//LEGAL
+.legal{
+    padding: 160px 0 $huge 0;
+    @media screen and (max-width: 1024px) and (min-width: 601px) {
+        padding: $xxl 0 $xxl 0;
+      }
+    @media screen and (max-width: 600px) {
+        padding: $xxl 0 $xxl 0;
+    }
+}

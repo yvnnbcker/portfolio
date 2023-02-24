@@ -1,7 +1,7 @@
 <template>
     <nav>
         <div class="nav-left">
-            <NuxtLink class="logo" to="/"><img src="/logo.svg" alt="Logo mit Initalien YB"/></NuxtLink>
+            <NuxtLink id="logo" to="/"></NuxtLink>
         </div>
         <div class="nav-right">        
             <NuxtLink class="button-nav" to="/comingsoon">about</NuxtLink>

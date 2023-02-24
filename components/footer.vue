@@ -1,13 +1,13 @@
 <template>
     <footer>
         <div class="footer-links">
-            <ul class="legal">
+            <ul class="footer-legal">
                 <li>
                     <NuxtLink class="button-footer" to="/privacypolicy">privacy policy</NuxtLink>
                     <NuxtLink class="button-footer" to="/legalnotice">legal notice</NuxtLink>
                 </li>
             </ul>
-            <ul class="contact">
+            <ul class="footer-contact">
                 <li>
                     <div class="socialmedia">
                         <a href="https://www.linkedin.com/in/yvonnebecker410/" target="_blank" class="button-footer">linkedin</a>   
@@ -17,7 +17,7 @@
                     <a href="mailto:contact@yvonnebecker.me" class="button-footer">contact@yvonnebecker.me</a>
                 </li>
             </ul>
-            <ul class="about">
+            <ul class="footer-about">
                 <li>
                     <NuxtLink class="button-footer" to="/about">Yvonne Becker,</NuxtLink>  
                     <div class="job">Interaction Designer</div>                   
