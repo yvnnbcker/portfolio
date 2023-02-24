@@ -22,6 +22,7 @@
             
             <h2>4. Adobe Fonts</h2>
             <br >Details about Adobe Fonts can be found at: <br ><a href="https://www.adobe.com/privacy/policies/adobe-fonts.html">https://www.adobe.com/privacy/policies/adobe-fonts.html</a> <br >and further information in Adobe's privacy policy at: <br ><a href="https://www.adobe.com/privacy/policy.html">https://www.adobe.com/privacy/policy.html</a>.
+            <br ><br ><br ><br ><br ><br >
         </div>
     </div>
 </template>
