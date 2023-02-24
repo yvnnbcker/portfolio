@@ -74,6 +74,7 @@ url('@/assets/fonts/Sligoil-Micro.otf') format('opentype');
   font-family: Sligoil;
   font-size: 3rem;
   line-height: 1.2;
+  font-weight: 300;
   @media screen and (max-width: 1024px) and (min-width: 601px) {
     font-size: 2.44rem;
   }
@@ -100,10 +101,10 @@ url('@/assets/fonts/Sligoil-Micro.otf') format('opentype');
   font-size: 1rem;
   line-height: 1.5;
   @media screen and (max-width: 1024px) and (min-width: 601px) {
-    font-size: 0.9rem;
+    font-size: 0.95rem;
   }
   @media screen and (max-width: 600px) {
-    font-size: 0.9rem;
+    font-size: 0.95rem;
   }
 }
 @mixin text {
@@ -112,11 +113,11 @@ url('@/assets/fonts/Sligoil-Micro.otf') format('opentype');
   line-height: 1.5;
   letter-spacing: 0.5px;
   @media screen and (max-width: 1024px) and (min-width: 601px) {
-    font-size: 0.9rem;
+    font-size: 0.95rem;
     letter-spacing: 0.3px;
   }
   @media screen and (max-width: 600px) {
-    font-size: 0.9rem;
+    font-size: 0.95rem;
   }
 }
 @mixin info {
@@ -139,6 +140,7 @@ h1 {
 }
 h2 {
   font-size: 2rem;
+  font-weight: 400;
   @media screen and (max-width: 1024px) and (min-width: 601px) {
     font-size: 1.75rem;
   }
@@ -148,6 +150,7 @@ h2 {
 }
 h3 {
   font-size: 1.56rem;
+  font-weight: 400;
   @media screen and (max-width: 1024px) and (min-width: 601px) {
     font-size: 1.375rem;
   }
@@ -157,10 +160,12 @@ h3 {
 }
 h4{
   font-size: 1.25rem;
+  font-weight: 400;
   @media screen and (max-width: 1024px) and (min-width: 601px) {
     font-size: 1.125rem;
   }
   @media screen and (max-width: 600px) {
+    font-size: 1.125rem;
   }
 }
 a {
@@ -201,6 +206,199 @@ li {
   height: 1px;
   position: relative;
   align-self: center;
-  top: -40px;
+  top: -24px;
   background-color: $black;
+}
+.line-mobile{
+  display: none;
+  @media screen and (max-width: 600px) {
+    display: block;
+  }
+}
+
+
+//BACKGROUND
+.background{
+  width: 100%;
+  .background-container{
+    position: absolute;
+    z-index: -1;
+    .blob1{
+      position: absolute;
+      top: -6vw;
+      @media screen and (min-width: 1600px) {
+        width: 600px;
+        top: -4vw;
+        left: 6vw;
+      }
+      @media screen and (max-width: 1024px) and (min-width: 601px) {
+        width: 400px;
+        top: 4vw;
+        left: -4vw;
+      }
+      @media screen and (max-width: 600px) {
+        width: 300px;
+        top: 90vw;
+        left: -8vw;
+      }
+    }
+    .blob2{
+      position: absolute;
+      left: 80vw;
+      top: -4vw;
+      @media screen and (min-width: 1600px) {
+        width: 600px;
+        top: 4vw;
+        left: 74vw;
+      }
+      @media screen and (max-width: 1024px) and (min-width: 601px) {
+        width: 400px;
+        top: 16vw;
+      }
+      @media screen and (max-width: 600px) {
+        width: 300px;
+        top: -20vw;
+        left: 70vw;
+      }
+    }
+    .blob3{
+      position: absolute;
+      top: 24vw;
+      left: 8vw;
+      @media screen and (min-width: 1600px) {
+        width: 600px;
+        top: 16vw;
+        left: 22vw;
+      }
+      @media screen and (max-width: 1024px) and (min-width: 601px) {
+        width: 400px;
+        top: 54vw;
+        left: 6vw;
+      }
+      @media screen and (max-width: 600px) {
+        width: 300px;
+        top: 150vw;
+        left: 0vw;
+      }
+    }
+    .blob4{
+      position: absolute;
+      top: 40vw;
+      left: 38vw;
+      @media screen and (min-width: 1600px) {
+        width: 600px;
+        top: 34vw;
+        left: 42vw;
+      }
+      @media screen and (max-width: 1024px) and (min-width: 601px) {
+        width: 400px;
+        top: 80vw;
+      }
+      @media screen and (max-width: 600px) {
+        width: 300px;
+        top: 200vw;
+        left: 24vw;
+      }
+    }
+    .blob5{
+      position: absolute;
+      top: 78vw;
+      left: -6vw;
+      @media screen and (min-width: 1600px) {
+        width: 600px;
+        top: 60vw;
+        left: 2vw;
+      }
+      @media screen and (max-width: 1024px) and (min-width: 601px) {
+        width: 400px;
+        top: 130vw;
+        right: 0;
+        left: -14vw;
+      }
+      @media screen and (max-width: 600px) {
+        width: 300px;
+        top: 300vw;
+        left: -24vw;
+      }
+    }
+    .blob6{
+      position: absolute;
+      top: 86vw;
+      left: 90vw;
+      @media screen and (min-width: 1600px) {
+        width: 600px;
+        top: 72vw;
+        left: 92vw;
+      }
+      @media screen and (max-width: 1024px) and (min-width: 601px) {
+        width: 400px;
+        top: 146vw;
+        left: 86vw;
+      }
+      @media screen and (max-width: 600px) {
+        width: 300px;
+        top: 400vw;
+        left: 66vw;
+      }
+    }
+    .blob7{
+      position: absolute;
+      top: 112vw;
+      left: 22vw;
+      @media screen and (min-width: 1600px) {
+        width: 600px;
+        top: 92vw;
+        left: 28vw;
+      }
+      @media screen and (max-width: 1024px) and (min-width: 601px) {
+        width: 400px;
+        top: 186vw;
+        left: 18vw;
+      }
+      @media screen and (max-width: 600px) {
+        width: 300px;
+        top: 510vw;
+        left: 4vw;
+      }
+    }
+    .blob8{
+      position: absolute;
+      top: 130vw;
+      left: 56vw;
+      @media screen and (min-width: 1600px) {
+        width: 600px;
+        top: 112vw;
+        left: 52vw;
+      }
+      @media screen and (max-width: 1024px) and (min-width: 601px) {
+        width: 400px;
+        top: 220vw;
+        left: 54vw;
+      }
+      @media screen and (max-width: 600px) {
+        width: 300px;
+        top: 578vw;
+        left: 32vw;
+      }
+    }
+    .blob9{
+      position: absolute;
+      top: 154vw;
+      left: -20vw;
+      @media screen and (min-width: 1600px) {
+        width: 600px;
+        top: 128vw;
+        left: -12vw;
+      }
+      @media screen and (max-width: 1024px) and (min-width: 601px) {
+        width: 400px;
+        top: 256vw;
+      }
+      @media screen and (max-width: 600px) {
+        width: 300px;
+        top: 644vw;
+        left: -30vw;
+      }
+    }
+  }
 }

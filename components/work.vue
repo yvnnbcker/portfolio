@@ -1,5 +1,5 @@
 <template>
-    <h1 id="projects">projects.</h1>
+    <div id="projects">projects.</div>
     <Navinpage />
     <div id="card-grid">
         <Card title="more to come" date="03/2023" 
