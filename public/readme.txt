@@ -1,0 +1,1 @@
+der ordner ist für files wie bilder und co (:
