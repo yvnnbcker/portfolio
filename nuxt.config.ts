@@ -4,8 +4,12 @@ import { defineNuxtConfig } from 'nuxt';
 export default defineNuxtConfig({
     Generate: { fallback: true },
    // modules: ['@nuxt/content'],
+   meta: {
+    title: 'Yvonne Becker, Interaction Designerin',
+    name: 'Yvonne Becker',
+    content: 'My Interaction Design Portfolio – UI, UX, Web Development, Exhibition and Print Projects',
+    },
     head: {
-        title: 'Yvonne Becker, Interaction Designerin',
         link: [
             {
             rel: 'stylesheet',
@@ -15,7 +19,7 @@ export default defineNuxtConfig({
         meta: {
             name: 'Yvonne Becker',
             content: 'My Interaction Design Portfolio – UI, UX, Web Development, Exhibition and Print Projects',
-        },
+            },
     },
     css: [
         '~/assets/scss/main.scss'
