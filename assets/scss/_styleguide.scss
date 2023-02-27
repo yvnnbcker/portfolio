@@ -116,6 +116,12 @@ nav {
   flex-direction: row;
   justify-content: space-between;
   padding: $xxs 0;
+  width: 100vw;
+  position: relative;
+  align-self: center;
+  @media screen and (mIN-width: 1600px) {
+    width: 1920px;
+  }
   .nav-left{
     display: flex;
     align-items: center;
@@ -179,6 +185,9 @@ footer{
   width: 100vw;
   a{
     @include sub;
+  }
+  @media screen and (min-width: 1600px) {
+    width: 1920px;
   }
   @media screen and (max-width: 600px) {
     width: 90%;
