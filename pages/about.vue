@@ -47,7 +47,7 @@
                 <div class="event"><b>YOU</b></div>
             </div>
         </div>
-        <Buttonicon href="/about" icon="download">
+        <Buttonicon href="/cv-yvonnebecker.pdf" icon="download" target="_blank">
             download CV
         </Buttonicon>
     </div>

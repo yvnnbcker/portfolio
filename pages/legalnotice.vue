@@ -12,7 +12,7 @@
             <br >Yvonne Becker
             <br >
             <br ><b>Contact:</b>
-            <br >Phone: +49 1578 8865558
+            <br >Phone: +49 157 88865558
             <br >E–Mail: contact@yvonnebecker.me
             <br ><br ><br >
         </div>
