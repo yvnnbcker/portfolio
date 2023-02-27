@@ -273,10 +273,10 @@ header {
             width: 90vw;
             stroke-width: 1px;
             @media screen and (max-width: 1024px) and (min-width: 601px) {
-                stroke-width: 1px;
+                stroke-width: 2px;
               }
             @media screen and (max-width: 600px) {
-                stroke-width: 3px;
+                stroke-width: 4px;
             }
         }
     }
@@ -289,7 +289,7 @@ header {
             display: flex;
             flex-direction: row;
             @media screen and (max-width: 600px) {
-                flex-direction: column;
+                flex-direction: column-reverse;
             }
             .currently{
                 padding-left: $m;

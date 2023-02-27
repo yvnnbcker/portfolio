@@ -31,11 +31,11 @@
             </div>
             <div class="career-currently">            
                 <div class="career-text">
-                    <div class="event"><div class="date">09/2019 – now</div><b>Interaction Design @HfG</b></div>
-                    <div class="event"><div class="date">03/2021</div><b>Volunteer Webproject</b></div>
-                    <div class="event"><div class="date">06/2021</div><b>Webproject 2</b></div>
-                    <div class="event"><div class="date">08/2021 – 02/2022</div><b>Design Internship @21TORR</b></div>
+                    <div class="event"><div class="date">09/2019 – 02/2023</div><b>Interaction Design @HfG</b></div>
                     <div class="event"><div class="date">02/2022 – 08/2022</div><b>Erasmus @FH Joanneum, AT</b></div>
+                    <div class="event"><div class="date">08/2021 – 02/2022</div><b>Design Internship @21TORR</b></div>
+                    <div class="event"><div class="date">10/2020 – 04/2021</div><b>Webproject 2</b></div>
+                    <div class="event"><div class="date">08/2020 – 10/2020</div><b>Volunteer Webproject Green Party</b></div>
             </div>
                 <div class="career-text currently">
                     <div class="event"><div class="date">02/2023</div> 
