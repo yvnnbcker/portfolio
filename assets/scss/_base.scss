@@ -19,6 +19,7 @@ $nano: 8px;
 //ICONS
 $arrow-right: url("data:image/svg+xml,%3Csvg width='48' height='48' viewBox='0 0 48 48' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cg clip-path='url(%23clip0_1710_1495)'%3E%3Cpath d='M2 23.5H44' stroke='%23212121' stroke-width='3'/%3E%3Cpath d='M22 1L44.6274 23.6274L22 46.2548' stroke='%23212121' stroke-width='3'/%3E%3C/g%3E%3Cdefs%3E%3CclipPath id='clip0_1710_1495'%3E%3Crect width='48' height='48' fill='white'/%3E%3C/clipPath%3E%3C/defs%3E%3C/svg%3E%0A");
 $arrow-diagonal: url("data:image/svg+xml,%3Csvg width='48' height='48' viewBox='0 0 48 48' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cg clip-path='url(%23clip0_1710_1497)'%3E%3Cpath d='M9.77002 9.57544L39.4685 39.2739' stroke='%23212121' stroke-width='3'/%3E%3Cpath d='M8.00244 39.6274H40.0024V7.62744' stroke='%23212121' stroke-width='3'/%3E%3C/g%3E%3Cdefs%3E%3CclipPath id='clip0_1710_1497'%3E%3Crect width='48' height='48' fill='white'/%3E%3C/clipPath%3E%3C/defs%3E%3C/svg%3E ");
+$heart: url("data:image/svg+xml,%3Csvg width='48' height='48' viewBox='0 0 48 48' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M23.7908 15.9106L24.8531 16.9761L25.9154 15.9106L30.1248 11.6884C33.4133 8.38981 38.7432 8.38981 42.0317 11.6884C45.3228 14.9894 45.3228 20.3434 42.0317 23.6445L24.8531 40.8754L3.1181 19.0742L15.0315 7.12456L23.7908 15.9106Z' stroke='%23212121' stroke-width='3'/%3E%3C/svg%3E%0A");
 $question: url("data:image/svg+xml,%3Csvg width='48' height='48' viewBox='0 0 48 48' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Crect x='21.5' y='35' width='5' height='5' fill='%23212121'/%3E%3Cpath d='M16 18C16 12 19 9 24 9C29 9 32 13 32 17C32 23.72 24 24.5 24 24.5V30' stroke='%23212121' stroke-width='3'/%3E%3Crect x='1.5' y='1.5' width='45' height='45' stroke='%23212121' stroke-width='3'/%3E%3C/svg%3E%0A");
 $download: url("data:image/svg+xml,%3Csvg width='48' height='48' viewBox='0 0 48 48' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cg clip-path='url(%23clip0_1740_1553)'%3E%3Cpath d='M24 2L24 38' stroke='%23212121' stroke-width='3'/%3E%3Cpath d='M4 17.799L24 37.5L43.598 17.799' stroke='%23212121' stroke-width='3'/%3E%3Cpath d='M6 39V45.5H42V39' stroke='%23212121' stroke-width='3'/%3E%3C/g%3E%3Cdefs%3E%3CclipPath id='clip0_1740_1553'%3E%3Crect width='48' height='48' fill='white'/%3E%3C/clipPath%3E%3C/defs%3E%3C/svg%3E%0A");
 $smiley: url("data:image/svg+xml,%3Csvg width='48' height='48' viewBox='0 0 48 48' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M19.3311 7C6.92577 12.7055 6.85304 36.2844 19.3311 41.5' stroke='%23212121' stroke-width='3'/%3E%3Crect x='29' y='16' width='5' height='5' fill='%23212121'/%3E%3Crect x='29' y='28' width='5' height='5' fill='%23212121'/%3E%3C/svg%3E%0A");
@@ -42,6 +43,10 @@ $logo: url("data:image/svg+xml,%3Csvg width='48' height='48' viewBox='0 0 48 48'
   -webkit-mask-image: $smiley;
   mask-image: $smiley;
 }
+.heart {
+  -webkit-mask-image: $heart;
+  mask-image: $heart;
+}
 .question {
   -webkit-mask-image: $question;
   mask-image: $question;
@@ -58,6 +63,9 @@ $logo: url("data:image/svg+xml,%3Csvg width='48' height='48' viewBox='0 0 48 48'
   -webkit-mask-image: $logo;
   mask-image: $logo;
   background-color: $vibrantviolet;
+}
+.icon-none{
+  display: none;
 }
 
 
@@ -98,22 +106,22 @@ url('@/assets/fonts/Sligoil-Micro.otf') format('opentype');
 }
 @mixin sub {
   font-family: Sligoil;
-  font-size: 1rem;
+  font-size: 0.95rem;
   line-height: 1.5;
   @media screen and (max-width: 1024px) and (min-width: 601px) {
-    font-size: 0.95rem;
+    font-size: 0.9rem;
   }
   @media screen and (max-width: 600px) {
-    font-size: 0.95rem;
+    font-size: 0.9rem;
   }
 }
 @mixin text {
   font-family: Neuzeit-Grotesk;
-  font-size: 1rem;
+  font-size: 1.05rem;
   line-height: 1.5;
   letter-spacing: 0.5px;
   @media screen and (max-width: 1024px) and (min-width: 601px) {
-    font-size: 0.95rem;
+    font-size: 1rem;
     letter-spacing: 0.3px;
   }
   @media screen and (max-width: 600px) {
@@ -192,7 +200,7 @@ li {
   width: fit-content;
   position: absolute;
   right: 6%;
-  top: 6%;
+  top: 6.5%;
   padding: 6px 12px;
   border: 3px solid $black;
   color: $black;
@@ -220,6 +228,7 @@ li {
 //BACKGROUND
 .background{
   width: 100%;
+  position: relative;
   .background-container{
     position: absolute;
     z-index: -1;
@@ -383,10 +392,10 @@ li {
     }
     .blob9{
       position: absolute;
-      top: 154vw;
-      left: -20vw;
+      top: 144vw;
+      left: -14vw;
       @media screen and (min-width: 1600px) {
-        width: 600px;
+        width: 460px;
         top: 128vw;
         left: -12vw;
       }

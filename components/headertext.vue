@@ -1,5 +1,5 @@
 <script setup>
-    const header = defineProps(['headline', 'slogantext', 'sloganhighlight', 'sloganextra', 'desc', 'button', 'img', 'alt']);
+    const header = defineProps(['headline', 'desc', 'href', 'icon', 'button', 'img', 'alt']);
   </script>
 
 <template>
@@ -9,9 +9,9 @@
                 <div class="header-headline">
                     {{header.headline}}
                 </div>
-                <Slogan text="I am&nbsp;" highlight="Yvonne" icon="smiley"/>
+                <Slogananimated text="I am&nbsp;" animation="text-animated"/>
                 <div class="header-desc">{{header.desc}}</div>
-                <Buttonicon href="/comingsoon" icon="arrow-right">
+                <Buttonicon :href="header.href" :icon="header.icon">
                     {{header.button}}
                 </Buttonicon>
             </div>

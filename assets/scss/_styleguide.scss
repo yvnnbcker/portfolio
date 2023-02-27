@@ -16,7 +16,8 @@
   }
   main {
     position: relative;
-    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: scroll;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -30,6 +31,12 @@
       }
     }
   }
+  .simple-layout{
+    a{
+      padding: 0;
+      margin: 0;
+    }
+  }
 
 //BUTTONS
 .button-icon{
@@ -37,8 +44,9 @@
   flex-direction: row;
   align-items: center;
   text-decoration: none;
+  width: fit-content;
   .button-text{
-    margin: $xxs $xs;
+    margin: $xxs 0 $xxs $xs;
     @include menu;
     background-color: $vibrantviolet;
     color: $white;
@@ -125,8 +133,11 @@ nav {
     #logo{
       width: 48px;
       height: 48px;
+      transition: transform .5s ease-in-out;
       &:hover{
         background-color: $black;
+        transform: rotate(180deg);
+        transition: transform .5s ease-in-out;
       }
     }
     
@@ -166,6 +177,9 @@ nav {
 
 footer{
   width: 100vw;
+  a{
+    @include sub;
+  }
   @media screen and (max-width: 600px) {
     width: 90%;
   }
@@ -223,6 +237,23 @@ footer{
   }
 }
 
+#adjectives:after {
+  content:"";
+  animation: adjectives 5s linear infinite;
+}
+@keyframes adjectives {
+  0%, 100% { content:"great";}
+  10% { content:"new";}
+  20% { content:"awesome";}
+  30% { content:"intuitive";}
+  40% { content:"fun";}
+  50% { content: "interactive";}
+  60% { content: "exciting";}
+  70% { content: "easy";}
+  80% { content: "fancy";}
+  90% { content: "useful";}
+}
+
 //SLOGAN
 .slogan-text {
   display: flex;
@@ -239,6 +270,9 @@ footer{
           height: 3px;
           background-color: $black;
       }
+      .no-line{
+        display: none;
+      }
   }
   .slogan-icon{
     background-color: $black;
@@ -251,15 +285,5 @@ footer{
     height: 48px;
     align-self: center;
     margin-left: $xxs;
-    @media screen and (max-width: 1024px) and (min-width: 601px) {
-      display: none;
-    }
-    @media screen and (max-width: 600px) {
-      display: block;
-    }
   }
-}
-#text-animated:after {
-  content:"";
-  animation: text-animated 4s linear infinite;
 }

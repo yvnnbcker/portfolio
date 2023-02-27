@@ -1,14 +1,13 @@
 <template>
-    <div>
     <Navigation />
         <main>
             <Background />
-            <div class="content">
+            <div class="content simple-layout">
                 <slot />    
             </div>  
             <Line />
             <Footer />
-        </main></div>
+        </main>
 </template>
 
 <style>
