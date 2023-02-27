@@ -6,7 +6,7 @@
         <div class="nav-right">        
             <NuxtLink class="button-nav" href="https://www.yvonnebecker.me/about">about</NuxtLink>
             <a class="button-nav" href="/#projects">projects</a>
-            <a href="mailto:contact@yvonnebecker.me" class="button-nav">contact</a>
+            <Contact button="button-nav">contact</Contact>
         </div>
                      
         <!-- <ul v-show="!mobile" class="navigation">

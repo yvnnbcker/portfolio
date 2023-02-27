@@ -14,8 +14,8 @@
                         <div class="trenner"></div>          
                         <a href="https://www.linkedin.com/yvnnbecker" target="_blank" class="button-footer">instagram</a>  
                     </div>
-                    <a href="mailto:contact@yvonnebecker.me" class="button-footer">contact@yvonnebecker.me</a>
                 </li>
+                <Contact button="button-footer">yvonnebecker93@web.de</Contact>
             </ul>
             <ul class="footer-about">
                 <li>
