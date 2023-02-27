@@ -1,7 +1,7 @@
 <template>
     <nav>
         <div class="nav-left">
-            <NuxtLink id="logo" to="/"></NuxtLink>
+            <NuxtLink id="logo" to="https://www.yvonnebecker.me/"></NuxtLink>
         </div>
         <div class="nav-right">        
             <NuxtLink class="button-nav" to="/about">about</NuxtLink>
