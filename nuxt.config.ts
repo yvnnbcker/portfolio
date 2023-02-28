@@ -15,6 +15,31 @@ export default defineNuxtConfig({
             rel: 'stylesheet',
             href: 'https://use.typekit.net/jmp6nrg.css'
             },
+            {
+            rel: 'preload',
+            as: 'image',
+            href: '/yvonne-1.png'
+            },
+            {
+            rel: 'preload',
+            as: 'image',
+            href: '/yvonne-2.png'
+            },
+            {
+            rel: 'preload',
+            as: 'image',
+            href: '/yvonne-3.png'
+            }, 
+            {
+            rel: 'preload',
+            as: 'image',
+            href: '/yvonne-4.png'
+            },
+            {
+            rel: 'preload',
+            as: 'image',
+            href: '/yvonne-5.png'
+            },  
         ],
         meta: {
             name: 'Yvonne Becker',

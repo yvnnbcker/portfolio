@@ -195,7 +195,7 @@ li {
 }
 
 //TAGS
-.web, .iks, .app, .all{
+.tag{
   @include sub;
   width: fit-content;
   position: absolute;

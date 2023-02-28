@@ -72,6 +72,12 @@
     }
   }
 }
+.icon-last {
+  flex-direction: row-reverse;
+  .button-text{
+    margin: $xxs $xs $xxs 0;
+  }
+}
 .button-nav {
   @include menu;
   text-decoration: none;
