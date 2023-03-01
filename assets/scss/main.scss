@@ -182,6 +182,12 @@ header {
     }        
 }
 
+//CONTENT
+.content{
+    display: flex;
+    flex-direction: column;
+}
+
 //CARD
 #card{
     a{
@@ -219,12 +225,12 @@ header {
         }
     }
 }
-#projects{
+.projects-preview{
     @include title;
     padding-bottom: $xs;
     @media screen and (max-width: 1024px) and (min-width: 601px) {
         padding-bottom: $xxs;
-      }
+    }
     @media screen and (max-width: 600px) {
         padding-bottom: $nano;
     }
