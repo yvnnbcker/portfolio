@@ -312,7 +312,6 @@ header {
     }
 }
 
-
 //COMING SOON
 .comingsoon{
     display: flex;
@@ -334,4 +333,132 @@ header {
     @media screen and (max-width: 600px) {
         padding: $xxl 0 $xxl 0;
     }
+}
+
+
+////////PROJECTS
+/// 
+#project-content-container{
+    padding: $xl 0 $xxl 0;
+}
+#hero-image{
+    display: flex;
+    flex-direction: column;
+    .hero-content{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 0 0 $s 0;
+        @media screen and (max-width: 600px) {
+            flex-direction: column-reverse;
+        }
+        .project-subtitle{
+        }
+        .project-headline{
+            display: flex;
+            flex-direction: column;
+        }
+        .project-date{
+            @include info;
+            align-self: flex-end;
+            @media screen and (max-width: 600px) {
+                align-self: flex-start; 
+                padding: 2px 0;           
+            }
+        }
+    }
+
+}
+
+#project-content{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    padding: $m 0 $l 0;
+    @media screen and (max-width: 600px) {
+        display: flex;
+        flex-direction: column;
+        padding: 0 0 $m 0;
+    }
+    .project-text-container{
+        padding: 0 $m $xs 0;
+        @media screen and (max-width: 1024px) and (min-width: 601px) {
+            padding: 0 $s $xs 0;
+          }
+        @media screen and (max-width: 600px) {
+            padding: $xs 0 $s 0;        
+        }
+    }
+    .project-text{
+        padding: 0 $m $xs 0;
+        h4{
+            padding: 0 0 $nano 0;
+        }
+        @media screen and (max-width: 1024px) and (min-width: 601px) {
+            padding: 0 $s $xs 0;
+          }
+        @media screen and (max-width: 600px) {
+            padding: $xxs 0;        
+        }
+    }
+    #project-facts{
+        display: flex;
+        flex-direction: column;
+        @media screen and (max-width: 600px) {
+            padding: $s 0 0 0;
+        }
+        .project-team, .project-tools, .project-tags, .project-links{
+            display: flex;
+            flex-direction: column;
+            padding: 0 0 $xs 0;
+            @media screen and (max-width: 600px) {
+                padding: $xs 0 $xxs 0;
+            }
+        }
+    }
+}
+.team-container, .tool-container, .tag-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: $nano 0 $nano 0;
+}
+.teammember, .project-tool{
+    width: 36px;
+    height: 36px;
+    margin: 0 $xxs 0 0;
+}
+.onetag-container{
+    padding: 0 $nano $nano 0;
+}
+
+#project-images{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: $m;
+    row-gap: $m;
+    @media screen and (max-width: 1024px) and (min-width: 601px) {
+        column-gap: $s;
+        row-gap: $s;
+      }
+    @media screen and (max-width: 600px) {
+        display: flex;
+        column-gap: $xs;
+        row-gap: $xs;
+        flex-direction: column;
+    }
+}
+.project-image{
+    img{
+        display: block;
+        width: 100%;
+    }  
+    .image-desc{
+        @include info;
+        display: flex;
+        justify-content: flex-end;
+        padding: $nano 0;
+    }
+}
+.img-padding{
+    padding: 0 0 $s 0;
 }
