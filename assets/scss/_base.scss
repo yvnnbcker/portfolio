@@ -36,6 +36,11 @@ $logo-miro: url("data:image/svg+xml,%3Csvg width='48' height='48' viewBox='0 0 4
   -webkit-mask-image: $arrow-right;
   mask-image: $arrow-right;
 }
+.arrow-left {
+  -webkit-mask-image: $arrow-right;
+  mask-image: $arrow-right;
+  transform: rotate(180deg);
+}
 .arrow-diagonal {
   -webkit-mask-image: $arrow-diagonal;
   mask-image: $arrow-diagonal;
@@ -422,5 +427,24 @@ li {
         left: -30vw;
       }
     }
+  }
+}
+
+//ERROR
+
+#error-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 50vw;
+  .error-message{
+    @include titlebold;
+    font-size: 6rem;
+    text-align: center;
+    padding-bottom: $s;
+  }
+  .error-code{
+    padding-bottom: $l;
   }
 }
