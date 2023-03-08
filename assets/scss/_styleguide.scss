@@ -403,6 +403,8 @@ footer{
         }
       }
       .footer-contact{
+        display: flex;
+        flex-direction: column;
         @media screen and (max-width: 600px) {
           padding-bottom: $xs;
         }
@@ -420,6 +422,9 @@ footer{
               display: none;
             }
           }
+        }
+        .mail{
+          width: fit-content;
         }
       }
       .footer-about{
