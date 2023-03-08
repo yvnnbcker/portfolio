@@ -1,4 +1,5 @@
 <template>
+            <Line class="line-mobile"/>
     <footer>
         <div class="footer-links">
             <ul class="footer-legal">

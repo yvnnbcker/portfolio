@@ -1,4 +1,6 @@
 <template>
+  <main>
+    <BackgroundSmall />
     <div id="error-container">
       <div class="error-message">
         Ooops, seems like an error occurred.
@@ -9,7 +11,9 @@
       <Buttonicon href="/" icon="arrow-left">
             go back to main page
       </Buttonicon>
-    </div>
+    </div>    
+    <Footer />
+  </main>
   </template>
   
   <script setup>

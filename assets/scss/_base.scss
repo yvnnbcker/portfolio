@@ -210,9 +210,12 @@ a {
   margin: $xxs;
   text-decoration: none;
   padding: 0 $nano;
+  color: $black;
+  transition: background-color, color 0.1s ease-out; 
   &:hover {
       background-color: $black;
       color: $white;
+      transition: background-color, color 0.1s ease-out; 
   }
 }
 p {
@@ -437,7 +440,16 @@ li {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding: $xxl 0;
   height: 50vw;
+  @media screen and (max-width: 1024px) and (min-width: 601px) {
+    height: 120vw;
+    width: 80%;
+  }
+  @media screen and (max-width: 600px) {
+    height: 200vw;
+    width: 90%;
+  }
   .error-message{
     @include titlebold;
     font-size: 6rem;
