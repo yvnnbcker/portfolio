@@ -10,5 +10,6 @@
             icon="arrow-right"
             button="get to know me"> 
     </Headerimage>
-    <Work />
+    <Line />
+    <Projects />
 </template>

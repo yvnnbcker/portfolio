@@ -15,7 +15,7 @@
                         <a href="https://www.linkedin.com/yvnnbecker" target="_blank" class="button-footer">instagram</a>  
                     </div>
                 </li>
-                <Contact button="button-footer">yvonnebecker93@web.de</Contact>
+                <Contact button="button-footer" class="mail">yvonnebecker93@web.de</Contact>
             </ul>
             <ul class="footer-about">
                 <li>
