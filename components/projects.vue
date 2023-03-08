@@ -5,11 +5,13 @@
                         <Card title="stay tuned for more" date="03/2023" 
                                 img="/more.png" alt="coomingsoon text on purple background" 
                                 tag="soon" 
-                                href="/comingsoon"/>  
+                                href="/comingsoon"
+                                target="_blank"/>  
                         <Card title="BA Silverware Museum" date="02/2023" 
                                 img="/ba.png" alt="hand with smartphone using ar" 
                                 tag="exhibition" 
-                                href="https://ausstellung.hfg-gmuend.de/w-2223/projekte/silberwarenmuseum-ott-pausersche-fabrik"/>
+                                href="https://ausstellung.hfg-gmuend.de/w-2223/projekte/silberwarenmuseum-ott-pausersche-fabrik"                                
+                                target="_blank"/>  
                         <Card title="Blum Icons Redesign" date="12/2021" 
                                 img="/blum_icons-preview.png" alt="different kind of icons" 
                                 tag="web" 
@@ -17,7 +19,8 @@
                         <Card title="Green Party Schorndorf" date="03/2021" 
                                 img="/bsp.png" alt="mockup of green party schorndorf website" 
                                 tag="web" 
-                                href="/comingsoon"/>    
+                                href="/comingsoon"
+                                target="_blank"/>   
                 </div>
         </div>
 </template>

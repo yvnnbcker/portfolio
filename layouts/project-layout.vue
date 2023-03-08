@@ -1,9 +1,8 @@
 <template>
         <main>
-            <Background />
             <Navigation />
             <div class="content">
-                <slot />    
+            <slot />    
             </div>  
             <Footerslogan />  
             <Footer />

@@ -8,7 +8,7 @@
     </Head>
         <main>
             <Background />
-            <Navigation />
+            <Navigation />            
             <div class="content">
                 <slot />    
             </div>  
