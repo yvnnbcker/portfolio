@@ -211,7 +211,8 @@ a {
   text-decoration: none;
   padding: 0 $nano;
   color: $black;
-  transition: background-color, color 0.1s ease-out; 
+  transition: background-color, color 0.1s ease-out;
+  width: fit-content; 
   &:hover {
       background-color: $black;
       color: $white;
@@ -226,7 +227,16 @@ li {
   flex-direction: column;
   list-style: none;
 }
-
+.no-style{
+  margin: 0;
+  text-decoration: none;
+  padding: 0;
+  background-color: transparent;
+  &:hover {
+    cursor: pointer;
+    background-color: transparent;
+  }
+}
 //TAGS
 .tag{
   @include sub;

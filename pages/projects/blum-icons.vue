@@ -19,12 +19,9 @@
       <Line class="line-mobile"/>
       <Facts
       team1="/logo-21torr.svg"
+      href1="https://www.21torr.com/"
       tool1="/logo-sketch.svg"
       tool2="/logo-miro.svg"
-      tag1="websdesign"
-      tag2="pixelperfect"
-      tag3="redesign"
-      tag4="visuallanguage"
       href="https://www.blum.com/"
       buttontext="visit website"
       />

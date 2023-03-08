@@ -1,5 +1,5 @@
 <script setup>
-    const facts = defineProps(['team1', 'team2', 'team3', 'team4', 'team5', 'team6', 'team7', 'team8', 'team9', 'tool1', 'tool2', 'tool3', 'tool4', 'tool5', 'tag1', 'tag2', 'tag3', 'tag4', 'tag5', 'tag6', 'tag7', 'href', 'buttontext']);
+    const facts = defineProps(['team1', 'team2', 'team3', 'team4', 'team5', 'team6', 'team7', 'team8', 'team9', 'href1', 'href2', 'href3', 'href4', 'href5', 'href6', 'href7', 'href8', 'href9','tool1', 'tool2', 'tool3', 'tool4', 'tool5', 'tag1', 'tag2', 'tag3', 'tag4', 'tag5', 'tag6', 'tag7', 'href', 'buttontext']);
 </script>
 
 <template>
@@ -7,15 +7,15 @@
         <div v-if="facts.team1!=empty" class="project-team">
             <b>Team</b>
             <div class="team-container">
-                <img :src=facts.team1 class="teammember"/>
-                <img v-if="facts.team2!=empty" :src=facts.team2 class="teammember"/>
-                <img v-if="facts.team3!=empty" :src=facts.team3 class="teammember"/>
-                <img v-if="facts.team4!=empty" :src=facts.team4 class="teammember"/>
-                <img v-if="facts.team5!=empty" :src=facts.team5 class="teammember"/>
-                <img v-if="facts.team6!=empty" :src=facts.team6 class="teammember"/>
-                <img v-if="facts.team7!=empty" :src=facts.team7 class="teammember"/>
-                <img v-if="facts.team8!=empty" :src=facts.team8 class="teammember"/>
-                <img v-if="facts.team9!=empty" :src=facts.team9 class="teammember"/>
+                <a :href="facts.href1" class="no-style"><img :src=facts.team1 class="teammember"/></a>
+                <a :href="facts.href2" class="no-style"><img v-if="facts.team2!=empty" :src=facts.team2 class="teammember"/></a>
+                <a :href="facts.href3" class="no-style"><img v-if="facts.team3!=empty" :src=facts.team3 class="teammember"/></a>
+                <a :href="facts.href4" class="no-style"><img v-if="facts.team4!=empty" :src=facts.team4 class="teammember"/></a>
+                <a :href="facts.href5" class="no-style"><img v-if="facts.team5!=empty" :src=facts.team5 class="teammember"/></a>
+                <a :href="facts.href6" class="no-style"><img v-if="facts.team6!=empty" :src=facts.team6 class="teammember"/></a>
+                <a :href="facts.href7" class="no-style"><img v-if="facts.team7!=empty" :src=facts.team7 class="teammember"/></a>
+                <a :href="facts.href8" class="no-style"><img v-if="facts.team8!=empty" :src=facts.team8 class="teammember"/></a>
+                <a :href="facts.href9" class="no-style"><img v-if="facts.team9!=empty" :src=facts.team9 class="teammember"/></a>
             </div>
         </div>
         <div v-if="facts.tool1!=empty" class="project-tools">
