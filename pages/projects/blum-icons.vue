@@ -15,7 +15,7 @@
         title="Icon Redesign"
         subtitle="Blum Facelift"
         date="Autumn – Winter 2021/2022"
-        img="/hero_blum-icon.png"
+        img="/blum_icons-hero.png"
         alt="Two setting icons in orange and dark blue"
       />
       <div id="project-content">
@@ -38,16 +38,16 @@
         />
       </div>
       <ImageUno
-        img="/blum_icon-anatomy.png"
+        img="/blum_icons-anatomy.png"
         alt="image of grids and icon forms"
         desc="establishing an icon grid"
         class="img-padding"
         />
       <ImagesTwo
-        img1="/blum_icons-alt.png"
+        img1="/blum_icons-old.png"
         alt1="image of old icons"
         desc1="icons before redesign"
-        img2="/blum_icons-neu.png"
+        img2="/blum_icons-new.png"
         alt2="image of new icons"
         desc2="icons after redesign"
         />
