@@ -182,7 +182,7 @@
     flex-direction: column;
     padding: $xl 0 $xxl 0;
     @media screen and (max-width: 600px) {
-        padding: $xl 0 $m 0;          
+        padding: $l 0 $m 0;          
     }
 }
 #hero-image{
@@ -207,6 +207,7 @@
             align-self: flex-end;
             @media screen and (max-width: 600px) {
                 align-self: flex-start; 
+                display: none;
                 padding: 2px 0;           
             }
         }
