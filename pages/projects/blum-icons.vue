@@ -27,7 +27,6 @@
         headline="Solution"
         text="Establishing a grid system for the icons, according to which all new icons are getting created. Some icons get matched into the new grid system, others are getting redesigned. A few icons needed to be invented for special cases."/>
         </div>
-        <Line class="line-mobile"/>
         <Facts
         team1="/logo-21torr.svg"
         href1="https://www.21torr.com/"
@@ -35,6 +34,7 @@
         tool2="/logo-miro.svg"
         href="https://www.blum.com/"
         buttontext="visit website"
+        class="facts-desktop"
         />
       </div>
       <ImageUno
@@ -50,6 +50,16 @@
         img2="/blum_icons-new.png"
         alt2="image of new icons"
         desc2="icons after redesign"
+        />
+      <Line class="line-mobile"/>
+      <Facts
+        team1="/logo-21torr.svg"
+        href1="https://www.21torr.com/"
+        tool1="/logo-sketch.svg"
+        tool2="/logo-miro.svg"
+        href="https://www.blum.com/"
+        buttontext="visit website"
+        class="facts-mobile"
         />
     </div>
   </template>

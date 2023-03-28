@@ -155,7 +155,7 @@ url('@/assets/fonts/Sligoil-Micro.otf') format('opentype');
     letter-spacing: 0.3px;
   }
   @media screen and (max-width: 600px) {
-    font-size: 0.95rem;
+    font-size: 1rem;
   }
 }
 @mixin info {
@@ -163,10 +163,10 @@ url('@/assets/fonts/Sligoil-Micro.otf') format('opentype');
   font-size: 0.64rem;
   line-height: 1.25;
   @media screen and (max-width: 1024px) and (min-width: 601px) {
-    font-size: 0.51rem;
+    font-size: 0.52rem;
   }
   @media screen and (max-width: 600px) {
-    font-size: 0.51rem;
+    font-size: 0.8rem;
   }
 }
 
@@ -237,6 +237,10 @@ li {
     background-color: transparent;
   }
 }
+.section-title{
+  @include title;
+}
+
 //TAGS
 .tag{
   @include sub;

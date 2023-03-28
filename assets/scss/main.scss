@@ -57,7 +57,6 @@
 #projects{
     padding: $s 0 0 0;
     .projects-preview{
-        @include title;
         padding-bottom: $xs;
         @media screen and (max-width: 1024px) and (min-width: 601px) {
             padding-bottom: $xxs;
@@ -179,7 +178,12 @@
 ////////////////////////////////PROJECTPAGES////////////////////////////////
 
 #project-content-container{
+    display: flex;
+    flex-direction: column;
     padding: $xl 0 $xxl 0;
+    @media screen and (max-width: 600px) {
+        padding: $xl 0 $m 0;          
+    }
 }
 #hero-image{
     display: flex;
@@ -210,6 +214,19 @@
 
 }
 
+.facts-mobile{
+    display: none;
+    @media screen and (max-width: 600px) {
+        display: flex;
+        flex-direction: column;
+        padding: $s 0 0 0;
+        .project-team, .project-tools, .project-tags, .project-links{
+            display: flex;
+            flex-direction: column;
+            padding: $xs 0 $xxs 0;
+        }
+    }
+}
 #project-content{
     display: grid;
     grid-template-columns: 2fr 1fr;
@@ -217,7 +234,7 @@
     @media screen and (max-width: 600px) {
         display: flex;
         flex-direction: column;
-        padding: 0 0 $m 0;
+        padding: 0 0 0 0;
     }
     .project-text-container{
         padding: 0 $m $xs 0;
@@ -245,6 +262,7 @@
         flex-direction: column;
         @media screen and (max-width: 600px) {
             padding: $s 0 0 0;
+            display: none;
         }
         .project-team, .project-tools, .project-tags, .project-links{
             display: flex;
@@ -285,6 +303,7 @@
         column-gap: $xs;
         row-gap: $xs;
         flex-direction: column;
+        padding: 0 0 $m 0;
     }
 }
 .project-image{

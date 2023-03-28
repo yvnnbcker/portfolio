@@ -1,6 +1,6 @@
 <template>
         <div id="projects">
-                <div class="projects-preview">projects.</div>
+                <div class="section-title projects-preview">projects.</div>
                 <div id="card-grid">
                         <Card title="stay tuned for more" date="03/2023" 
                                 img="/more.png" alt="coomingsoon text on purple background" 
