@@ -396,6 +396,7 @@ footer{
       padding: $xxs 0;
       @media screen and (max-width: 600px) {
         flex-direction: column;
+        padding: $m 0;
       }
       .footer-legal{
         @media screen and (max-width: 600px) {

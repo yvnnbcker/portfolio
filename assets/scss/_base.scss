@@ -117,7 +117,7 @@ url('@/assets/fonts/Sligoil-Micro.otf') format('opentype');
     font-size: 2.44rem;
   }
   @media screen and (max-width: 600px) {
-    font-size: 2rem;
+    font-size: 1.75rem;
   }
 }
 @mixin titlebold {
@@ -131,7 +131,7 @@ url('@/assets/fonts/Sligoil-Micro.otf') format('opentype');
     font-size: 1.125rem;
   }
   @media screen and (max-width: 600px) {
-    font-size: 1.05rem;
+    font-size: 1rem;
   }
 }
 @mixin sub {
@@ -203,7 +203,7 @@ h4{
     font-size: 1.125rem;
   }
   @media screen and (max-width: 600px) {
-    font-size: 1.05rem;
+    font-size: 1.12rem;
   }
 }
 a {

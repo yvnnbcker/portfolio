@@ -25,7 +25,7 @@
         text="The previous icons look very different – especially in terms of size, stroke width and style. Therefore, they do not result in a harmonious visual language."/>
         <Headlinetext
         headline="Solution"
-        text="Establishing a grid system for the icons, according to which all new icons are getting created. Some icons get matched into the new grid system, others are getting redesigned. A few icons needed to be invented for special cases."/>
+        text="Establishing a grid system for the icons, according to which all new icons are getting created. Some icons get matched into the new grid system, others are getting completely redesigned. A few icons needed to be invented for special cases."/>
         </div>
         <Facts
         team1="/logo-21torr.svg"
