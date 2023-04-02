@@ -5,8 +5,8 @@
 <template>
         <Headertext headline="Hello again," 
             desc="My name is Yvonne, 29 years old. Interaction Designer by heart. 
-            I enjoy making projects from scratch and therefore being part of UI & UX – sometimes even coding.
-            Get to know me better as a person. Have a look at my career and projects."
+            I enjoy making projects from scratch and therefore being part of UX & UI – sometimes even coding.
+            But first: get to know me better as a person. And also have a look at my career and projects."
             href="#aboutme"
             icon="arrow-diagonal"
             button="my career" 
