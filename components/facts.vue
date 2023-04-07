@@ -1,11 +1,11 @@
 <script setup>
-    const facts = defineProps(['team1', 'team2', 'team3', 'team4', 'team5', 'team6', 'team7', 'team8', 'team9', 'href1', 'href2', 'href3', 'href4', 'href5', 'href6', 'href7', 'href8', 'href9','tool1', 'tool2', 'tool3', 'tool4', 'tool5', 'tag1', 'tag2', 'tag3', 'tag4', 'tag5', 'tag6', 'tag7', 'href', 'buttontext']);
+    const facts = defineProps(['teamtitle','team1', 'team2', 'team3', 'team4', 'team5', 'team6', 'team7', 'team8', 'team9', 'href1', 'href2', 'href3', 'href4', 'href5', 'href6', 'href7', 'href8', 'href9','tool1', 'tool2', 'tool3', 'tool4', 'tool5', 'tag1', 'tag2', 'tag3', 'tag4', 'tag5', 'tag6', 'tag7', 'href', 'buttontext', 'buttoncolor']);
 </script>
 
 <template>
     <div id="project-facts">
         <div v-if="facts.team1!=empty" class="project-team">
-            <b>Team</b>
+            <b>{{ facts.teamtitle }}</b>
             <div class="team-container">
                 <a :href="facts.href1" class="no-style"><img :src=facts.team1 class="teammember"/></a>
                 <a :href="facts.href2" class="no-style"><img v-if="facts.team2!=empty" :src=facts.team2 class="teammember"/></a>
@@ -42,7 +42,7 @@
         </div>
         <div v-if="facts.buttontext!=empty" class="project-links">
             <b>Links</b>
-            <Buttonicon icon="arrow-right" :href="facts.href" class="icon-last">{{ facts.buttontext }}</Buttonicon>
+            <Buttonicon icon="arrow-right" :href="facts.href" :class="facts.buttoncolor" class="icon-last">{{ facts.buttontext }}</Buttonicon>
         </div>
     </div>
 </template>

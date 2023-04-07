@@ -28,12 +28,15 @@
         text="Establishing a grid system for the icons, according to which all new icons are getting created. Some icons get matched into the new grid system, others are getting completely redesigned. A few icons needed to be invented for special cases."/>
         </div>
         <Facts
+        teamtitle="Agency"
         team1="/logo-21torr.svg"
         href1="https://www.21torr.com/"
         tool1="/logo-sketch.svg"
         tool2="/logo-miro.svg"
+        tool3="/logo-jira.svg"
         href="https://www.blum.com/"
         buttontext="visit website"
+        buttoncolor="button-orange"
         class="facts-desktop"
         />
       </div>
@@ -57,8 +60,10 @@
         href1="https://www.21torr.com/"
         tool1="/logo-sketch.svg"
         tool2="/logo-miro.svg"
+        tool3="/logo-jira.svg"
         href="https://www.blum.com/"
         buttontext="visit website"
+        buttoncolor="button-orange"
         class="facts-mobile"
         />
     </div>

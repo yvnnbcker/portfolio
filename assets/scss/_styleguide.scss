@@ -164,15 +164,15 @@ header {
   animation: aboutme 5s linear infinite;
 }
 @keyframes aboutme {
-  0%, 100% { content:"teamplayer.";}
-  10% { content:"curious.";}
+  0%, 100% { content:"Yvonne.";}
+  10% { content:"teamplayer.";}
   20% { content:"organized.";}
   30% { content:"energetic.";}
   40% { content:"funny.";}
   50% { content: "openminded.";}
   60% { content: "direct.";}
   70% { content: "warmly.";}
-  80% { content: "hungry.";}
+  80% { content: "curious.";}
   90% { content: "plantlover.";}
 }
 #portrait{
@@ -206,6 +206,7 @@ header {
 
 
 //BUTTONS
+
 .button-icon{
   display: inline-flex;
   flex-direction: row;
@@ -229,6 +230,9 @@ header {
     width: 48px;
     height: 48px;
     transition: background-color 0.1s ease-out; 
+  }
+  #button-orange{
+    background-color: orange;
   }
   &:hover {     
     .button-text{
@@ -351,97 +355,101 @@ nav {
 
 
 //FOOTER
-.footer-content{
+footer{
   display: flex;
   flex-direction: column;
-  width: 920px;
-  height: 30vw;
-  justify-content: center;
-  align-self: center;
-    @media screen and (min-width: 1600px) {
-      height: 50vw;
-    }
-    @media screen and (max-width: 1024px) and (min-width: 601px) {
-        width: 80%;
-        height: 60vw;
+  .footer-content{
+    display: flex;
+    flex-direction: column;
+    width: 920px;
+    height: 30vw;
+    justify-content: center;
+    align-self: center;
+      @media screen and (min-width: 1600px) {
+        height: 50vw;
       }
-      @media screen and (max-width: 600px) {
-        width: 90%;
-        height: 100vw;
-      }
-    .slogan-right{
-        display: flex;
-        justify-content: flex-end;
-        @media screen and (max-width: 600px) {
-          justify-content: flex-start;
+      @media screen and (max-width: 1024px) and (min-width: 601px) {
+          width: 80%;
+          height: 60vw;
         }
-    }
-}
-
-footer{
-  width: 100vw;
-  a{
-    @include sub;
-  }
-  @media screen and (min-width: 1600px) {
-    width: 1920px;
-  }
-  @media screen and (max-width: 600px) {
-    width: 90%;
-  }
-  .footer-links{
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
-      padding: $xxs 0;
-      @media screen and (max-width: 600px) {
-        flex-direction: column;
-        padding: $m 0;
-      }
-      .footer-legal{
         @media screen and (max-width: 600px) {
-          padding-bottom: $xs;
+          width: 90%;
+          height: 100vw;
         }
-      }
-      .footer-contact{
-        display: flex;
-        flex-direction: column;
-        @media screen and (max-width: 600px) {
-          padding-bottom: $xs;
-        }
-        .socialmedia{
+      .slogan-right{
           display: flex;
-          flex-direction: row;
+          justify-content: flex-end;
           @media screen and (max-width: 600px) {
-            flex-direction: column;
+            justify-content: flex-start;
           }
-          .trenner{
-            width: 1px;
-            height: 18px;
-            background-color: $black;
+      }
+  }
+  .footer-container{
+    width: 100vw;
+    a{
+      @include sub;
+    }
+    @media screen and (min-width: 1600px) {
+      width: 1920px;
+    }
+    @media screen and (max-width: 600px) {
+      width: 90%;
+      align-self: center;
+    }
+    .footer-links{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: $xxs 0;
+        @media screen and (max-width: 600px) {
+          flex-direction: column;
+          padding: $m 0;
+        }
+        .footer-legal{
+          @media screen and (max-width: 600px) {
+            padding-bottom: $xs;
+          }
+        }
+        .footer-contact{
+          display: flex;
+          flex-direction: column;
+          @media screen and (max-width: 600px) {
+            padding-bottom: $xs;
+          }
+          .socialmedia{
+            display: flex;
+            flex-direction: row;
             @media screen and (max-width: 600px) {
-              display: none;
+              flex-direction: column;
+            }
+            .trenner{
+              width: 1px;
+              height: 18px;
+              background-color: $black;
+              @media screen and (max-width: 600px) {
+                display: none;
+              }
             }
           }
         }
-      }
-      .footer-about{
-        li{ 
-          align-items: flex-end;
-          @media screen and (max-width: 600px) {
-            align-items: flex-start;
-          }
-          .job{
-            @include sub;
-            margin: 0 $s;
-            padding: 0 $nano;
+        .footer-about{
+          li{ 
+            align-items: flex-end;
             @media screen and (max-width: 600px) {
-              margin: 0;
-              padding: $nano 0;
+              align-items: flex-start;
             }
-          }   
+            .job{
+              @include sub;
+              margin: 0 $s;
+              padding: 0 $nano;
+              @media screen and (max-width: 600px) {
+                margin: 0;
+                padding: $nano 0;
+              }
+            }   
+          }
         }
-      }
+    }
   }
 }
 
@@ -495,4 +503,43 @@ footer{
     align-self: center;
     margin-left: $xxs;
   }
+}
+
+
+////////////////////////////////MOLECULES////////////////////////////////
+
+.image-text{
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  @media screen and (max-width: 600px) {
+    width: 100%;
+    padding-bottom: $nano;
+  }
+  img{
+      width: 24%;
+      height: auto;
+      padding-bottom: $xxs;
+
+  }
+  .bullet-title{
+      padding-bottom: $nano;
+  }
+}
+
+//IMAGE UNO & TWO
+.project-image{
+  img{
+      display: block;
+      width: 100%;
+  }  
+  .image-desc{
+      @include info;
+      display: flex;
+      justify-content: flex-end;
+      padding: $nano 0;
+  }
+}
+.img-padding{
+  padding: 0 0 $s 0;
 }

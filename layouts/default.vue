@@ -12,7 +12,6 @@
             <div class="content">
                 <slot />    
             </div>  
-            <Footerslogan />  
             <Footer />
         </main>
 </template>

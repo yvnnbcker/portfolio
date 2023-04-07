@@ -7,9 +7,8 @@
             <img src="/blob4.png" class="blob4 blobs">
             <img src="/blob5.png" class="blob5 blobs">
             <img src="/blob6.png" class="blob6 blobs">
-            <img src="/blob1.png" class="blob7 blobs">
-            <img src="/blob8.png" class="blob8 blobs">
-            <img src="/blob9.png" class="blob9 blobs">
+            <img src="/blob9.png" class="blob7 blobs">
+            <img src="/blob2.png" class="blob8 blobs">
         </div>
     </div>
 </template>

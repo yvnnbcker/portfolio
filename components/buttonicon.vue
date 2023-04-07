@@ -1,5 +1,5 @@
 <script setup>
-    const button = defineProps(['icon', 'href']);
+    const button = defineProps(['icon', 'color', 'href']);
 </script>
 
 <template>

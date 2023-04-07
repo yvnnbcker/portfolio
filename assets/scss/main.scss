@@ -93,12 +93,30 @@
 #aboutme {
     display: flex;
     flex-direction: column;
-    padding: $s 0 $xxl 0;
-    @media screen and (max-width: 1024px) and (min-width: 601px) {
-        padding: $s 0 $xl 0;
+    #skill-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        @media screen and (max-width: 600px) {
+            flex-direction: column;
+        }
     }
-    @media screen and (max-width: 600px) {
-        padding: $s 0 $xl 0;
+    #tools-container{
+        .tool-title{
+            @include title;
+        }
+        .logo-container{
+            padding: 0 0 $nano 0;
+            .tool-logo{
+                width: 48px;
+                height: 48px;
+                margin: 0 $s 0 0;
+                @media screen and (max-width: 600px) {
+                    margin: 0 $s $s 0;
+                }
+            }
+        }
+
     }
     .career-visual{
         display: flex;
@@ -114,7 +132,7 @@
             margin: $l 0 $m 0;
             height: 250px;
         }
-        .career-img{
+        svg{
             width: 90vw;
             stroke-width: 3px;
             @media screen and (max-width: 1024px) and (min-width: 601px) {
@@ -150,6 +168,7 @@
         }
     }
 }
+
 
 //COMING SOON
 .comingsoon{
@@ -303,19 +322,4 @@
         flex-direction: column;
         padding: 0 0 $m 0;
     }
-}
-.project-image{
-    img{
-        display: block;
-        width: 100%;
-    }  
-    .image-desc{
-        @include info;
-        display: flex;
-        justify-content: flex-end;
-        padding: $nano 0;
-    }
-}
-.img-padding{
-    padding: 0 0 $s 0;
 }

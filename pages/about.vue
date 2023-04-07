@@ -4,21 +4,47 @@
 
 <template>
         <Headertext headline="Hello again," 
-            desc="My name is Yvonne, 29 years old. Interaction Designer by heart. 
-            I enjoy making projects from scratch and therefore being part of UX & UI – sometimes even coding.
-            But first: get to know me better as a person. And also have a look at my career and projects."
+            desc="My name is Yvonne, but you can also call me Yve. I am 29 years old. Interaction Designer by heart. 
+                Glad you took the chance to get to know me better, my personality and my skills. Have fun looking around and feel free to reach out to me!"
             href="#aboutme"
             icon="arrow-diagonal"
-            button="my career" 
+            button="dig deeper" 
             img="/yvonne-1.png" alt="young blonde woman smiling"> 
         </Headertext>
-        <Line />
-    <div id="aboutme"> 
-        <div class="section-title career-title">life is like a rollercoaster.</div>
+    <div id="aboutme" class="section-container"> 
+        <Sectiontitle>what I do.</Sectiontitle>
+        <div id="skill-container" class="section-between-container">
+            <ImageText
+            title="Starting at zero."
+            bullet1="I enjoy making projects from scratch! Participating in the whole process – from the very beginning until the end – watching the product grow and develop."/>
+            <ImageText 
+            title="Combine both worlds."
+            bullet1="I like to be part of UX & UI design – and sometimes even coding. Creating great functional designs never gets boring."/>
+            <ImageText 
+            title="Never stop learning."
+            bullet1="It doesn't matter if it's a new tool or technique – I am always eager to learn and improve my skills. "/>
+        </div>
+        <div id="more-container" class="section-between-container">
+            <div class="more-title section-title">what I also do.</div>
+            As I already mentioned before I kinda enjoy programming websites as well. I might not be the best, but it is fun and I enjoy to force myself to learn something new and get better! I also have basic experience in print, 3D modelling, photography and video editing.
+        </div>
+        <div id="tools-container" class="section-container">
+            <div class="tool-title section-title">what I use.</div>
+            <div class="logo-container">
+                <img src="/logo-figma.svg" alt="logo figma" class="tool-logo">
+                <img src="/logo-sketch.svg" alt="logo sketch" class="tool-logo">
+                <img src="/logo-adobe.svg" alt="logo adobe creative cloud" class="tool-logo">
+                <img src="/logo-vs.svg" alt="logo visual studio code" class="tool-logo">
+                <img src="/logo-miro.svg" alt="logo miro" class="tool-logo">
+                <img src="/logo-slack.svg" alt="logo slack" class="tool-logo">
+                <img src="/logo-jira.svg" alt="logo jira" class="tool-logo">
+            </div>
+        </div>
+        <Sectiontitle>life is like a rollercoaster.</Sectiontitle>
         <div class="career-visual">
-            <svg class="career-img" alt="career visualisation" width="1355" height="381" viewBox="0 0 1355 381" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M0 314.753C0 314.753 121 314.751 182 314.753C218.5 314.753 262.339 280.751 287 280.751C309.5 280.751 310.5 314.753 334 314.751C348.5 314.751 400.5 313.753 400.5 274.752C400.5 222.251 325.5 223.251 325.5 274.752C325.5 314.753 382 314.753 395 314.753C448 314.753 449.5 314.546 470 314.751C499 315.042 515.5 307.251 515.5 286.752C515.5 255.251 468 256.251 468 286.752C468 318.251 502.483 308.555 520 319.751C541.591 333.55 549.5 374.997 568.5 379.251C604.856 387.39 637.671 310.504 690.5 314.753C802.5 323.759 815.5 275 815.5 247.501C815.5 164 688.5 161.001 688.5 247.501C688.5 299.5 734 317 797 314.753C819.486 313.95 856 347.5 870 347.5C889 347.5 910 314.751 941.5 314.751C1063.5 314.751 1208 290.736 1208 151.762C1208 -50.7853 910 -48.7061 910 151.762C910 208.5 941.5 264.663 1001 289.5C1053.01 311.209 1128.6 314.751 1235 314.751C1235 314.751 1252 314.751 1354 314.751" stroke="#212121"/>
-            <path d="M1331.63 337.5L1354.25 314.873L1331.63 292.246" stroke="#212121"/>
+            <svg width="1357" height="385" viewBox="0 0 1357 385" fill="none" xmlns="http://www.w3.org/2000/svg" class="career-img">
+            <path d="M0 317.752C0 317.752 121 317.751 182 317.752C218.5 317.753 262.339 283.751 287 283.751C309.5 283.751 310.5 317.752 334 317.751C348.5 317.751 400.5 316.752 400.5 277.752C400.5 225.25 325.5 226.25 325.5 277.752C325.5 317.752 382 317.752 395 317.752C448 317.752 449.5 317.546 470 317.751C499 318.042 515.5 310.25 515.5 289.752C515.5 258.25 468 259.25 468 289.752C468 321.25 502.483 311.555 520 322.75C541.591 336.55 549.5 377.997 568.5 382.25C604.856 390.39 637.671 313.504 690.5 317.752C802.5 326.759 815.5 278 815.5 250.5C815.5 167 688.5 164 688.5 250.5C688.5 302.5 734 320 797 317.752C819.486 316.95 856 350.5 870 350.5C889 350.5 910 317.751 941.5 317.751C1063.5 317.751 1208 293.736 1208 154.761C1208 -47.7856 910 -45.7063 910 154.761C910 211.5 941.5 267.663 1001 292.5C1053.01 314.209 1128.6 317.751 1235 317.751C1235 317.751 1252 317.751 1354 317.751" stroke="#212121" stroke-width="3"/>
+            <path d="M1331.63 340.5L1354.25 317.873L1331.63 295.245" stroke="#212121" stroke-width="3"/>
             </svg>
         </div>
         <div class="career-content">
@@ -31,8 +57,8 @@
                     <div class="event"><div class="date">09/2019 – 02/2023</div><b>Interaction Design @HfG</b></div>
                     <div class="event"><div class="date">02/2022 – 08/2022</div><b>Erasmus @FH Joanneum, AT</b></div>
                     <div class="event"><div class="date">08/2021 – 02/2022</div><b>Design Internship @21TORR</b></div>
-                    <div class="event"><div class="date">10/2020 – 04/2021</div><b>Webproject 2</b></div>
-                    <div class="event"><div class="date">08/2020 – 10/2020</div><b>Volunteer Webproject Green Party</b></div>
+                    <div class="event"><div class="date">10/2020 – 04/2021</div><b>Webproject 2: Anne Kowatsch</b></div>
+                    <div class="event"><div class="date">08/2020 – 10/2020</div><b>Webproject 1: Green Party</b></div>
             </div>
                 <div class="career-text currently">
                     <div class="event"><div class="date">02/2023</div> 

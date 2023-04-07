@@ -237,8 +237,33 @@ li {
     background-color: transparent;
   }
 }
+
+//SECTIONS
+.section-container{
+  padding: 0 0 $xxl 0;
+  @media screen and (max-width: 1024px) and (min-width: 601px) {
+    padding: 0 0 $xl 0;
+  }
+  @media screen and (max-width: 600px) {
+      padding: 0 0 $xl 0;
+  }
+}
+.section-between-container{
+  padding: 0 0 $l 0;
+  @media screen and (max-width: 1024px) and (min-width: 601px) {
+    padding: 0 0 $m 0;
+  }
+  @media screen and (max-width: 600px) {
+      padding: 0 0 $m 0;
+  }
+}
 .section-title{
   @include title;
+    padding: $s 0;
+}
+.section{
+  display: flex;
+  flex-direction: column;
 }
 
 //TAGS
@@ -351,7 +376,7 @@ li {
         left: 40vw;
       }
       @media screen and (max-width: 1024px) and (min-width: 601px) {
-        top: 90vw;
+        top: 86vw;
       }
       @media screen and (max-width: 600px) {
         top: 214vw;
@@ -395,65 +420,101 @@ li {
     }
     .blob7{
       position: absolute;
-      top: 116vw;
-      left: 24vw;
+      top: 112vw;
+      left: -12vw;
       @media screen and (min-width: 1600px) {
         top: 94vw;
-        left: 28vw;
       }
       @media screen and (max-width: 1024px) and (min-width: 601px) {
-        top: 196vw;
-        left: 18vw;
+        top: 168vw;
+        left: 30vw;
       }
       @media screen and (max-width: 600px) {
-        top: 520vw;
-        left: 0vw;
+        top: 510vw;
+        left: -12vw;
       }
     }
     .blob8{
       position: absolute;
-      top: 134vw;
-      left: 56vw;
+      top: 130vw;
+      left: 64vw;
       @media screen and (min-width: 1600px) {
         top: 114vw;
-        left: 54vw;
+        left: 64vw;
       }
       @media screen and (max-width: 1024px) and (min-width: 601px) {
-        top: 236vw;
-        left: 54vw;
+        top: 206vw;
+        left: 74vw;
       }
       @media screen and (max-width: 600px) {
-        top: 670vw;
-        left: 32vw;
-      }
-    }
-    .blob9{
-      position: absolute;
-      top: 146vw;
-      left: -14vw;
-      @media screen and (min-width: 1600px) {
-        top: 122vw;
-        left: -12vw;
-      }
-      @media screen and (max-width: 1024px) and (min-width: 601px) {
-        top: 262vw;
-        left: -18vw;
-      }
-      @media screen and (max-width: 600px) {
-        top: 744vw;
-        left: -30vw;
+        top: 700vw;
+        left: 48vw;
       }
     }
   }
 }
+
+
+.footer-background-container{
+  position: absolute;
+  z-index: -1;
+  .blob7{
+    position: absolute;
+    top: -16vw;
+    left: 24vw;
+    @media screen and (min-width: 1600px) {
+      top: -6vw;
+      left: 28vw;
+    }
+    @media screen and (max-width: 1024px) and (min-width: 601px) {
+      top: -20vw;
+      left: 18vw;
+    }
+    @media screen and (max-width: 600px) {
+      top: -36vw;
+      left: 0vw;
+    }
+  }
+  .blob8{
+    position: absolute;
+    top: 2vw;
+    left: 60vw;
+    @media screen and (min-width: 1600px) {
+      top: 14vw;
+      left: 54vw;
+    }
+    @media screen and (max-width: 1024px) and (min-width: 601px) {
+      top: 10vw;
+      left: 54vw;
+    }
+    @media screen and (max-width: 600px) {
+      top: 26vw;
+      left: 32vw;
+    }
+  }
+  .blobend{
+    position: absolute;
+    top: 9vw;
+    @media screen and (min-width: 1600px) {
+      top: 32vw;
+    }
+    @media screen and (max-width: 1024px) and (min-width: 601px) {
+      top: 36vw;
+    }
+    @media screen and (max-width: 600px) {
+      top: 128vw;
+    }
+  }
+}
+
 .custom-bg{
   position: relative;
   top: -6vw;
   left: -20vw;
 }
 
-//ERROR
 
+//ERROR
 #error-container{
   display: flex;
   flex-direction: column;
