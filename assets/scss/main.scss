@@ -264,9 +264,10 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    flex-wrap: wrap;
     padding: $m 0 $s 0;
     @media screen and (max-width: 600px) {
-        padding: $s 0;
+        padding: $m 0 $xxs;
     }
     .project-team, .project-tools, .project-tags, .project-links{
         display: flex;
