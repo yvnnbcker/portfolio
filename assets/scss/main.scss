@@ -217,6 +217,7 @@
             padding: $xxs $xs;
         }
         .project-subtitle{
+            font-weight: 800;
         }
         .project-headline{
             display: flex;
@@ -265,14 +266,16 @@
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding: $m 0 $s 0;
+    padding: $m 0;
     @media screen and (max-width: 600px) {
-        padding: $m 0 $xxs;
+        padding: $s 0;
     }
     .project-team, .project-tools, .project-tags, .project-links{
         display: flex;
         flex-direction: column;
-        padding: 0 0 $xs 0;
+        @media screen and (max-width: 600px) {
+            padding: $xs 0;
+        }
     }
 }
 .team-container, .tool-container, .tag-container{
