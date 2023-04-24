@@ -211,9 +211,10 @@
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        padding: 0 0 $s 0;
+        padding: $xs $s;
+        border: 3px solid $black;
         @media screen and (max-width: 600px) {
-            flex-direction: column-reverse;
+            padding: $xxs $xs;
         }
         .project-subtitle{
         }
@@ -222,73 +223,55 @@
             flex-direction: column;
         }
         .project-date{
-            @include info;
-            align-self: flex-end;
+
+            align-self: flex-start;
             @media screen and (max-width: 600px) {
-                align-self: flex-start; 
-                display: none;
-                padding: 2px 0;           
+                display: none;         
             }
         }
     }
 
 }
 
-.facts-mobile{
-    display: none;
-    @media screen and (max-width: 600px) {
-        display: flex;
-        flex-direction: column;
-        padding: $s 0 0 0;
-        .project-team, .project-tools, .project-tags, .project-links{
-            display: flex;
-            flex-direction: column;
-            padding: $xxs 0 $nano 0;
-        }
-    }
-}
-#project-content{
+#project-text-container{
     display: grid;
-    grid-template-columns: 2fr 1fr;
-    padding: $m 0 $l 0;
+    grid-template-columns: 1fr 1fr;
+    column-gap: $xl;
+    row-gap: $l;
+    padding: $m 0;
+    @media screen and (max-width: 1024px) and (min-width: 601px) {
+        column-gap: $l;
+        row-gap: $l;
+      }
     @media screen and (max-width: 600px) {
         display: flex;
         flex-direction: column;
-        padding: 0 0 0 0;
-    }
-    .project-text-container{
-        padding: 0 $m $xs 0;
-        @media screen and (max-width: 1024px) and (min-width: 601px) {
-            padding: 0 $s $xs 0;
-          }
-        @media screen and (max-width: 600px) {
-            padding: $xs 0 $s 0;        
-        }
+        column-gap: $xs;
+        row-gap: $xs;    
     }
     .project-text{
-        padding: 0 $m $xs 0;
+        padding: $m 0;
         h4{
             padding: 0 0 $nano 0;
         }
-        @media screen and (max-width: 1024px) and (min-width: 601px) {
-            padding: 0 $s $xs 0;
-          }
         @media screen and (max-width: 600px) {
-            padding: $xxs 0;        
+            padding: $nano 0;        
         }
     }
-    #project-facts{
+}
+
+#project-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: $m 0 $s 0;
+    @media screen and (max-width: 600px) {
+        padding: $s 0;
+    }
+    .project-team, .project-tools, .project-tags, .project-links{
         display: flex;
         flex-direction: column;
-        @media screen and (max-width: 600px) {
-            padding: $s 0 0 0;
-            display: none;
-        }
-        .project-team, .project-tools, .project-tags, .project-links{
-            display: flex;
-            flex-direction: column;
-            padding: 0 0 $xs 0;
-        }
+        padding: 0 0 $xs 0;
     }
 }
 .team-container, .tool-container, .tag-container{
@@ -298,7 +281,7 @@
     padding: $nano 0 $nano 0;
 }
 .teammember, .project-tool{
-    width: 36px;
+    width: auto;
     height: 36px;
     margin: 0 $xxs 0 0;
 }

@@ -246,7 +246,27 @@ header {
     }
   }
 }
-.icon-last {
+.iconsmall-first {
+  flex-direction: row;
+  .button-text{
+    margin: $xxs 0 $xxs $xxs;
+    @include sub;
+  }
+  .button-image{
+    background-color: $vibrantviolet;
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-size: contain;
+    mask-size: contain;
+    background-size: 32px 32px;
+    width: 32px;
+    height: 32px;
+  }
+  .button-small{
+    margin: $xxs $xxs $xxs 0;
+  }
+}
+.iconsmall-last {
   flex-direction: row-reverse;
   .button-text{
     margin: $xxs $xxs $xxs 0;
