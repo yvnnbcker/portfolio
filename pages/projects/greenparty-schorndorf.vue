@@ -1,5 +1,5 @@
 <script>
-definePageMeta({
-  layout: "simple",
-});
+  definePageMeta({
+    layout: "simple",
+  });
 </script>

@@ -63,7 +63,7 @@
 </template>
 
 <script>
-definePageMeta({
-layout: "project-layout",
-});
+  definePageMeta({
+  layout: "project-layout",
+  });
 </script>

@@ -3,8 +3,8 @@
 </script>
 
 <template>
-        <div class="project-image">
-            <img :src=project.img :alt=project.alt />
-            <div class="image-desc">{{ project.desc }}</div>
-        </div>
+    <div class="project-image">
+        <img :src=project.img :alt=project.alt />
+        <div class="image-desc">{{ project.desc }}</div>
+    </div>
 </template>

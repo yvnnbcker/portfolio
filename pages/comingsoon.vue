@@ -4,6 +4,5 @@
         <h2>stay tuned (:</h2>
         <p>my portfolio is currently under construction. 
         <br />come back soon to see more. </p>
-</div>
-
+    </div>
 </template>

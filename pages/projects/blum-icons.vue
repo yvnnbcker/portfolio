@@ -1,4 +1,5 @@
 <template>
+  <div>
     <div id="project-content-container">
       <Heroimage
         title="Icon Redesign"
@@ -41,7 +42,8 @@
         buttontext="visit website"
         buttoncolor="button-orange"
         />
-  </template>
+    </div>
+</template>
 
 <script>
 definePageMeta({

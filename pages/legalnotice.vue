@@ -31,7 +31,6 @@
                 <br >© Copyright Yvonne Becker 2023. All rights reserved. Text, images, graphics, sound, animations and videos on this website are protected by copyright and other protective laws. The content of this website may not be copied, distributed, modified or made available to third parties.
                 <br ><br ><br ><br ><br ><br >
             </div>
-
         </div>
     </div>
 </template>

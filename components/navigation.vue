@@ -1,11 +1,11 @@
 <template>
     <nav>
         <div class="nav-left">
-            <NuxtLink id="logo" to="https://www.yvonnebecker.me/"></NuxtLink>
+            <NuxtLink id="logo" to="/"></NuxtLink>
         </div>
         <div class="nav-right">        
-            <NuxtLink class="button-nav" href="https://www.yvonnebecker.me/about">about</NuxtLink>
-            <a class="button-nav" href="/#projects">projects</a>
+            <NuxtLink class="button-nav" to="/about">about</NuxtLink>
+            <a class="button-nav" to="/#projects">projects</a>
             <Contact button="button-nav">contact</Contact>
         </div>
                      

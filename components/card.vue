@@ -4,7 +4,7 @@
 
 <template>
     <div id="card">
-        <NuxtLink :href="preview.href" :target="preview.target">
+        <NuxtLink :to="preview.href" :target="preview.target">
             <div class="preview-image">
                 <img class="img-preview" :src="preview.img" :alt="preview.alt"/>
                 <Tag class="previewtag">{{ preview.tag }}</Tag>
