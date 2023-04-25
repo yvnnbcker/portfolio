@@ -261,20 +261,24 @@
     }
 }
 
-#project-info{
+#infobox{
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    padding: $m 0;
-    @media screen and (max-width: 600px) {
-        padding: $s 0;
-    }
-    .project-team, .project-tools, .project-tags, .project-links{
+    flex-direction: column;
+    .project-info{
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding: $m 0;
         @media screen and (max-width: 600px) {
-            padding: $xs 0;
+            padding: $s 0;
+        }
+        .project-team, .project-tools, .project-tags, .project-links{
+            display: flex;
+            flex-direction: column;
+            @media screen and (max-width: 600px) {
+                padding: $xs 0;
+            }
         }
     }
 }

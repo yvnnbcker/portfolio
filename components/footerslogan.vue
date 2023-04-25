@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div id="footer-slogan">
         <Line />
         <div class="footer-content">
             <Slogananimated text="create&nbsp;" icon="icon-none" animation="adjectives" line="no-line" class="slogan-left"/>

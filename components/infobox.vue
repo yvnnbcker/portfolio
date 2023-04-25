@@ -3,9 +3,9 @@
 </script>
 
 <template>
-    <div>
+    <div id="infobox">
         <Line />
-        <div id="project-info">
+        <div class="project-info">
             <div v-if="info.team1!==undefined" class="project-team">
                 <b>{{ info.teamtitle }}</b>
                 <div class="team-container">

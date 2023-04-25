@@ -377,31 +377,35 @@ nav {
 footer{
   display: flex;
   flex-direction: column;
-  .footer-content{
-    display: flex;
-    flex-direction: column;
-    width: 920px;
-    height: 30vw;
-    justify-content: center;
-    align-self: center;
-      @media screen and (min-width: 1600px) {
-        height: 50vw;
-      }
-      @media screen and (max-width: 1024px) and (min-width: 601px) {
-          width: 80%;
-          height: 60vw;
+  align-self: center;
+  #footer-slogan{
+    display: contents;
+    .footer-content{
+      display: flex;
+      flex-direction: column;
+      width: 920px;
+      height: 30vw;
+      justify-content: center;
+      align-self: center;
+        @media screen and (min-width: 1600px) {
+          height: 50vw;
         }
-        @media screen and (max-width: 600px) {
-          width: 90%;
-          height: 100vw;
-        }
-      .slogan-right{
-          display: flex;
-          justify-content: flex-end;
-          @media screen and (max-width: 600px) {
-            justify-content: flex-start;
+        @media screen and (max-width: 1024px) and (min-width: 601px) {
+            width: 80%;
+            height: 60vw;
           }
-      }
+          @media screen and (max-width: 600px) {
+            width: 90%;
+            height: 100vw;
+          }
+        .slogan-right{
+            display: flex;
+            justify-content: flex-end;
+            @media screen and (max-width: 600px) {
+              justify-content: flex-start;
+            }
+        }
+    }
   }
   .footer-container{
     width: 100vw;
