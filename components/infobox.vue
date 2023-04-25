@@ -44,7 +44,7 @@
             </div>
             <div v-if="info.buttontext!==undefined" class="project-links">
                 <b>Links</b>
-                <Buttonicon icon="arrow-right" color="accent-new" :href="info.href" :class="info.buttoncolor" class="iconsmall-first">{{ info.buttontext }}</Buttonicon>
+                <Buttonicon icon="arrow-right" color="accent-new" :href="info.href" :class="info.buttoncolor" class="buttonsmall-icon">{{ info.buttontext }}</Buttonicon>
             </div>
         </div>
     </div>
