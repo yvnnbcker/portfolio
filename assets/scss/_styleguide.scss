@@ -521,18 +521,11 @@ footer{
 .image-text{
   display: flex;
   flex-direction: column;
-  width: 30%;
+  padding-bottom: $s;
   @media screen and (max-width: 600px) {
-    width: 100%;
     padding-bottom: $nano;
   }
-  img{
-      width: 24%;
-      height: auto;
-      padding-bottom: $xxs;
-
-  }
-  .bullet-title{
+  .text-headline{
       padding-bottom: $nano;
   }
 }
