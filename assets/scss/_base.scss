@@ -113,7 +113,7 @@ url('@/assets/fonts/Sligoil-Micro.otf') format('opentype');
     font-size: 1.125rem;
   }
   @media screen and (max-width: 600px) {
-    font-size: 1rem;
+    font-size: 1.12rem;
   }
 }
 @mixin sub {
@@ -153,40 +153,24 @@ url('@/assets/fonts/Sligoil-Micro.otf') format('opentype');
 }
 
 //TYPO h1 bis p
-h1, h2, h3, h4, a {font-family: Sligoil;}
+h1, h2, h3, h3, a {font-family: Sligoil;}
 
 h1 {
   @include titlebold;
 }
 h2 {
-  font-size: 2rem;
+  font-size: 1.8rem;
   font-weight: 400;
   @media screen and (max-width: 1024px) and (min-width: 601px) {
-    font-size: 1.75rem;
+    font-size: 1.6rem;
   }
   @media screen and (max-width: 600px) {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
   }
 }
-h3 {
-  font-size: 1.56rem;
-  font-weight: 400;
-  @media screen and (max-width: 1024px) and (min-width: 601px) {
-    font-size: 1.375rem;
-  }
-  @media screen and (max-width: 600px) {
-    font-size: 1.25rem;
-  }
-}
-h4{
-  font-size: 1.25rem;
-  font-weight: 400;
-  @media screen and (max-width: 1024px) and (min-width: 601px) {
-    font-size: 1.125rem;
-  }
-  @media screen and (max-width: 600px) {
-    font-size: 1.12rem;
-  }
+h3{
+  @include menu;
+  font-weight: 900;
 }
 a {
   margin: $xxs;

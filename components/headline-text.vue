@@ -4,7 +4,7 @@
 
 <template>
     <div class="project-text">
-        <h4>{{ content.headline }}</h4>
+        <h3>{{ content.headline }}</h3>
         <p>{{ content.text }}</p>
     </div>
 </template>

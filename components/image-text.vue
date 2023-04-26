@@ -5,7 +5,7 @@
 <template>
     <div class="image-text">
         <img :src="bullet.src" :alt="bullet.alt">
-        <h4 v-if="bullet.title!=empty" class="bullet-title">{{ bullet.title }}</h4>
+        <h3 v-if="bullet.title!=empty" class="bullet-title">{{ bullet.title }}</h3>
         <div v-if="bullet.bullet1!=empty" class="single-bullet"> {{ bullet.bullet1 }}</div>
         <div v-if="bullet.bullet2!=empty" class="single-bullet"> {{ bullet.bullet2 }}</div>
         <div v-if="bullet.bullet3!=empty" class="single-bullet"> {{ bullet.bullet3 }}</div>

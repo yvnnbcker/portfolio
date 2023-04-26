@@ -10,7 +10,7 @@
                 <Tag class="previewtag">{{ preview.tag }}</Tag>
             </div>
             <div class="card-text">
-               <h4>{{ preview.title }}</h4> 
+               <h3>{{ preview.title }}</h3> 
                 {{ preview.date }}
             </div>
         </NuxtLink>     
