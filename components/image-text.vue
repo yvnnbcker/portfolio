@@ -3,14 +3,12 @@
 </script>
 
 <template>
-    <div>
-        <div class="image-text">
-            <h3 v-if="project.headline!==undefined" class="text-headline">{{ project.headline }}</h3>
-            <slot />
-        </div>
+    <div class="image-text">
+            <h3 v-if="project.headline!==undefined" class="card-headline">{{ project.headline }}</h3>
         <div class="project-image">
             <img :src=project.img :alt=project.alt />
             <div class="image-desc">{{ project.desc }}</div>
         </div>
+        <slot />
     </div>
 </template>

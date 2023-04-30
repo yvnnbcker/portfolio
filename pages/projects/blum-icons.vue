@@ -8,16 +8,16 @@
         img="/blum_icons-hero.png"
         alt="two setting icons in orange and dark blue"
       />
-      <div class="project-grid-container">
+      <div class="project-grid2-container">
         <ImageText
-          headline="?Problem"
+          headline="Problem ?"
           img="/blum_icons-old.png"
           alt="image of old blum icons"
           desc="icons before redesign">
           The previous icons look very different – especially in terms of size, stroke width and style. Therefore, they do not result in a harmonious visual language.
         </ImageText>
         <ImageText
-          headline="!Solution"
+          headline="Solution !"
           img="/blum_icons-new.png"
           alt="image ofnew blum icons"
           desc="icons after redesign">

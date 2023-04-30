@@ -14,16 +14,13 @@
         </Headertext>
         <div id="aboutme" class="section-container"> 
             <Sectiontitle>what I do.</Sectiontitle>
-            <div id="skill-container" class="section-between-container">
+            <div id="skill-container" class="section-between-container project-grid3-container">
                 <ImageText
-                title="Starting at zero."
-                bullet1="I enjoy making projects from scratch! Participating in the whole process – from the very beginning until the end."/>
+                headline="Starting at zero.">I enjoy making projects from scratch! Participating in the whole process – from the very beginning until the end.</ImageText>
                 <ImageText 
-                title="Combine both worlds."
-                bullet1="I like to be part of UX & UI design – and sometimes even coding. Creating great functional designs never gets boring."/>
+                headline="Combine both worlds.">I like to be part of UX & UI design – and sometimes even coding. Creating great functional designs never gets boring.</ImageText>                
                 <ImageText 
-                title="Never stop learning."
-                bullet1="It doesn't matter if it's a new tool or technique – I am always eager to learn and improve my skills. "/>
+                headline="Never stop learning.">It doesn't matter if it's a new tool or technique – I am always eager to learn and improve my skills.</ImageText>
             </div>
             <div id="more-container" class="section-between-container">
                 <div class="more-title section-title">what I also do.</div>

@@ -19,6 +19,8 @@
         position: relative;
         line-height: 0;
         img{
+            border: 3px $black;
+            border-style: dashed dashed none dashed;
             display: block;
             width: 100%;
             filter: grayscale(100);
@@ -204,6 +206,58 @@
         padding: $l 0 $s 0;          
     }
 }
+
+.project-grid2-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: $xl;
+    row-gap: $l;
+    padding: $m 0;
+    @media screen and (max-width: 1024px) and (min-width: 601px) {
+        column-gap: $l;
+        row-gap: $l;
+      }
+    @media screen and (max-width: 600px) {
+        display: flex;
+        flex-direction: column;
+        column-gap: $xs;
+        row-gap: $xs;    
+    }
+    .card-headline{
+        padding-bottom: $xs;
+    }
+    .project-image{
+        padding-bottom: $nano;
+    }
+}
+.project-grid3-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: baseline;
+    column-gap: $m;
+    row-gap: $l;
+    padding: $m 0;
+    @media screen and (max-width: 1024px) and (min-width: 601px) {
+        column-gap: $m;
+        row-gap: $l;
+      }
+    @media screen and (max-width: 768px) and (min-width: 601px){
+        grid-template-columns: 1fr 1fr;
+    }
+    @media screen and (max-width: 600px) {
+        display: flex;
+        flex-direction: column;
+        column-gap: $xs;
+        row-gap: $m;  
+        padding: $xs 0;  
+        grid-template-columns: 1fr;
+    }
+    .card-headline{
+        padding: $xxs $xs;
+        border: 3px solid $black;
+    }
+}
+
 #hero-image{
     display: flex;
     flex-direction: column;
@@ -234,30 +288,13 @@
 
 }
 
-.project-grid-container{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    column-gap: $xl;
-    row-gap: $l;
+.project-text{
     padding: $m 0;
-    @media screen and (max-width: 1024px) and (min-width: 601px) {
-        column-gap: $l;
-        row-gap: $l;
-      }
-    @media screen and (max-width: 600px) {
-        display: flex;
-        flex-direction: column;
-        column-gap: $xs;
-        row-gap: $xs;    
+    h3{
+        padding: 0 0 $nano 0;
     }
-    .project-text{
-        padding: $m 0;
-        h3{
-            padding: 0 0 $nano 0;
-        }
-        @media screen and (max-width: 600px) {
-            padding: $nano 0;        
-        }
+    @media screen and (max-width: 600px) {
+        padding: $nano 0;        
     }
 }
 

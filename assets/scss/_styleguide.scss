@@ -402,7 +402,8 @@ footer{
       width: 1920px;
     }
     @media screen and (max-width: 600px) {
-      width: 90%;
+      display: flex;
+      flex-direction: column;
       align-self: center;
     }
     .footer-links{
@@ -411,7 +412,10 @@ footer{
         justify-content: space-between;
         padding: $xxs 0;
         @media screen and (max-width: 600px) {
+          width: 90%;
+          display: flex;
           flex-direction: column;
+          align-self: center;
           padding: $m 0;
         }
         .footer-legal{
@@ -518,15 +522,18 @@ footer{
 ////////////////////////////////MODULES////////////////////////////////
 
 //IMAGE TEXT
+
 .image-text{
   display: flex;
   flex-direction: column;
-  padding-bottom: $s;
-  @media screen and (max-width: 600px) {
-    padding-bottom: $nano;
-  }
-  .text-headline{
+  .image-text-container{
+    padding-bottom: $s;
+    @media screen and (max-width: 600px) {
       padding-bottom: $nano;
+    }
+    .text-headline{
+        padding-bottom: $nano;
+    }
   }
 }
 
