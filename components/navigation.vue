@@ -5,7 +5,7 @@
         </div>
         <div class="nav-right">        
             <NuxtLink class="button-nav" to="/about">about</NuxtLink>
-            <a class="button-nav" to="/#projects">projects</a>
+            <a class="button-nav" href="/#projects">projects</a>
             <Contact button="button-nav">contact</Contact>
         </div>
                      

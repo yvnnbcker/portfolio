@@ -2,7 +2,7 @@
         <div id="projects">
                 <Sectiontitle>projects.</Sectiontitle>
                 <div id="card-grid"> 
-                        <Card title="Podcast BA Thesis" date="05/2023" 
+                        <Card title="BA Thesis Talk" date="05/2023" 
                                 img="/logo-smartinnovation.jpg" alt="logo from smart innovation podcast" 
                                 tag="podcast" 
                                 href="https://www.klausreichert.de/verbinden-von-analogen-und-digitalen-welten-im-museum/"                                
