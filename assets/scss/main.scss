@@ -136,12 +136,26 @@
         }
         svg{
             width: 90vw;
-            stroke-width: 3px;
-            @media screen and (max-width: 1024px) and (min-width: 601px) {
-                stroke-width: 5px;
-              }
             @media screen and (max-width: 600px) {
-                stroke-width: 8px;
+                width: 96vw;
+            }
+            path{
+                @media screen and (max-width: 1024px) and (min-width: 601px) {
+                    stroke-width: 5px;
+                  }
+                @media screen and (max-width: 600px) {
+                    stroke-width: 9px;
+                }
+            }
+            .path-dash{
+                @media screen and (max-width: 1024px) and (min-width: 601px) {
+                    stroke-width: 5px;
+                    stroke-dasharray: 5 5;
+                  }
+                @media screen and (max-width: 600px) {
+                    stroke-width: 9px;
+                    stroke-dasharray: 9 9;
+                }
             }
         }
     }
