@@ -16,11 +16,11 @@
                         <a href="https://www.linkedin.com/yvnnbecker" target="_blank" class="button-footer">instagram</a>  
                     </div>
                 </li>
-                <Contact button="button-footer" class="mail">yvonnebecker93@web.de</Contact>
+                <Contact button="button-footer"/>
             </ul>
             <ul class="footer-about">
                 <li>
-                    <NuxtLink class="button-footer" to="/about">Yvonne Becker,</NuxtLink>  
+                    <NuxtLink class="button-footer" to="/about">© Yvonne Becker,</NuxtLink>  
                     <div class="job">Interaction Designer</div>                   
                 </li>
             </ul>

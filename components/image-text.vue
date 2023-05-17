@@ -4,11 +4,13 @@
 
 <template>
     <div class="image-text">
-            <h3 v-if="project.headline!==undefined" class="card-headline">{{ project.headline }}</h3>
-        <div class="project-image">
-            <img :src=project.img :alt=project.alt />
-            <div class="image-desc">{{ project.desc }}</div>
+        <h3 v-if="project.headline!==undefined" class="card-headline">{{ project.headline }}</h3>
+        <div class="image-text-content">
+            <slot/>
+            <div class="project-image">
+                <img :src=project.img :alt=project.alt />
+                <div class="image-desc">{{ project.desc }}</div>
+            </div>
         </div>
-        <slot />
     </div>
 </template>

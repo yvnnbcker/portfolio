@@ -1,5 +1,5 @@
 <script setup>
-    const hero = defineProps(['title', 'subtitle', 'date', 'img', 'alt',]);
+    const hero = defineProps(['title', 'subtitle', 'date', 'img', 'imgmobile', 'alt',]);
 </script>
 
 <template>
@@ -11,6 +11,7 @@
             </div>
             <div class="project-date">{{ hero.date }}</div>
         </div>
-        <img :src=hero.img :alt=hero.alt />
+        <img :src=hero.img :alt=hero.alt class="hero-desktop"/>
+        <img :src=hero.imgmobile :alt=hero.alt class="hero-mobile"/>
     </div>
 </template>

@@ -224,7 +224,7 @@
     grid-template-columns: 1fr 1fr;
     column-gap: $xl;
     row-gap: $l;
-    padding: $m 0;
+    padding: $l 0 $m 0;
     @media screen and (max-width: 1024px) and (min-width: 601px) {
         column-gap: $l;
         row-gap: $l;
@@ -236,10 +236,7 @@
         row-gap: $xs;    
     }
     .card-headline{
-        padding-bottom: $xs;
-    }
-    .project-image{
-        padding-bottom: $nano;
+        padding-bottom: $xxs;
     }
 }
 .project-grid3-container{
@@ -248,7 +245,7 @@
     align-items: baseline;
     column-gap: $m;
     row-gap: $l;
-    padding: $m 0;
+    padding: $l 0 $m 0;
     @media screen and (max-width: 1024px) and (min-width: 601px) {
         column-gap: $m;
         row-gap: $l;
@@ -268,11 +265,30 @@
         padding: $xxs $xs;
         border: 3px solid $black;
     }
+    .image-text-content{
+        display: flex;
+        flex-direction: column-reverse;
+        .project-image{
+            padding-top: 0;
+        }
+    }
 }
 
 #hero-image{
     display: flex;
     flex-direction: column;
+    .hero-mobile{
+        display: none;
+        @media screen and (max-width: 600px) {
+            display: block;
+        }
+    }
+    .hero-desktop{
+        display: block;
+        @media screen and (max-width: 600px) {
+            display: none;
+        }
+    }
     .hero-content{
         display: flex;
         flex-direction: row;

@@ -303,12 +303,25 @@ header {
 
 .button-footer{
   margin: 0 $s;
+  .mail{
+    @include sub;
+    display: block;
+    @media screen and (max-width: 600px) {
+      display: none;
+    }
+  }
+  .mail-mobile{
+    @include sub;
+    display: none;
+    @media screen and (max-width: 600px) {
+      display: block;
+    }
+  }
   @media screen and (max-width: 1024px) and (min-width: 601px) {
     margin: 0 $xs;
   }
   @media screen and (max-width: 600px) {
     margin: 0;
-    padding: $nano $m 0 0;
   }
 }
 
@@ -395,8 +408,16 @@ footer{
   }
   .footer-container{
     width: 100vw;
+    p{
+      @media screen and (max-width: 600px) {
+        color: $vibrantviolet;
+      }
+    }
     a{
       @include sub;
+      @media screen and (max-width: 600px) {
+        color: $vibrantviolet;
+      }
     }
     @media screen and (min-width: 1600px) {
       width: 1920px;
@@ -421,6 +442,11 @@ footer{
         .footer-legal{
           @media screen and (max-width: 600px) {
             padding-bottom: $xs;
+            li{
+              display: flex;
+              flex-direction: row;
+              justify-content: space-between;
+            }
           }
         }
         .footer-contact{
@@ -428,12 +454,16 @@ footer{
           flex-direction: column;
           @media screen and (max-width: 600px) {
             padding-bottom: $xs;
+            flex-direction: row;
+            justify-content: space-between;
           }
           .socialmedia{
             display: flex;
             flex-direction: row;
             @media screen and (max-width: 600px) {
-              flex-direction: column;
+              a{
+                padding-right: $s;
+              }
             }
             .trenner{
               width: 1px;
@@ -457,7 +487,7 @@ footer{
               padding: 0 $nano;
               @media screen and (max-width: 600px) {
                 margin: 0;
-                padding: $nano 0;
+                padding: $nano;
               }
             }   
           }
@@ -539,6 +569,7 @@ footer{
 
 //IMAGE UNO & TWO
 .project-image{
+  padding: $xs 0 $nano 0;
   img{
       display: block;
       width: 100%;
