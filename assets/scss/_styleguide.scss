@@ -313,6 +313,7 @@ header {
   .mail-mobile{
     @include sub;
     display: none;
+    color: $vibrantviolet;
     @media screen and (max-width: 600px) {
       display: block;
     }
@@ -488,6 +489,7 @@ footer{
               @media screen and (max-width: 600px) {
                 margin: 0;
                 padding: $nano;
+                color: $vibrantviolet;
               }
             }   
           }
