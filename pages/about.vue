@@ -22,10 +22,10 @@
                 <ImageText 
                 headline="Never stop learning.">It doesn't matter if it's a new tool or technique – I am always eager to learn and improve my skills.</ImageText>
             </div>
-            <div id="more-container" class="section-between-container">
+           <!-- <div id="more-container" class="section-between-container">
                 <div class="more-title section-title">what I also do.</div>
                 As I already mentioned before: I kinda enjoy programming websites as well. I might not be the best, but it is fun and I enjoy to force myself to learn something new and get better! I also have basic experience in print, 3D modelling, photography and video editing.
-            </div>
+            </div>-->
             <div id="tools-container" class="section-container">
                 <div class="tool-title section-title">what I use.</div>
                 <div class="logo-container">
