@@ -241,7 +241,12 @@ li {
   color: $black;
   background-color: $white;
 }
-.previewtag{
+.tag2{
+  margin-left: $nano;
+}
+.preview-tag{
+  display: flex;
+  flex-direction: row;
   position: absolute;
   right: 6%;
   top: 6.5%;

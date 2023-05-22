@@ -13,7 +13,7 @@
                     <div class="socialmedia">
                         <a href="https://www.linkedin.com/in/yvonnebecker410/" target="_blank" class="button-footer">linkedin</a>   
                         <div class="trenner"></div>          
-                        <a href="https://www.linkedin.com/yvnnbecker" target="_blank" class="button-footer">instagram</a>  
+                        <a href="https://www.instagram.com/yvnnbecker" target="_blank" class="button-footer">instagram</a>  
                     </div>
                 </li>
                 <Contact button="button-footer"/>
