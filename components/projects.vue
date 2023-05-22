@@ -15,10 +15,8 @@
                                 target="_blank"/>  
                         <Card title="Startup Project" date="04/2022" 
                                 img="/roundacorner-preview.png" alt="beermats with slogan and logo of roundacorner" 
-                                tag2="coming soon" 
                                 tag1="branding" 
-                                href="https://roundacorner.design/"
-                                target="_blank"/>
+                                href="/projects/roundacorner"/>
                         <Card title="Blum Navigation Rework" date="02/2022" 
                                 img="/blum_nav-preview.png" alt="screenshot of a website" 
                                 tag2="coming soon" 

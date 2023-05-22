@@ -6,16 +6,16 @@
         subtitle="Startup Project"
         date="04/2022"
         img="/roundacorner-hero.gif"
-        alt="picture of 7 young women"
-      />
+        alt="picture of 7 young women"/>
+      <div class="note">*Note: This project contained several disciplines, but can be parted into two main areas for quick overview (:</div>
       <div class="project-grid2-container">
         <ImageText
-          headline="Branding part">
-          The previous icons look very different – especially in terms of size, stroke width and style. Therefore, they do not result in a harmonious visual language.
+          headline="Design">
+          Branding: deciding for our brand name, defining who we are and therefore establishing our Corporate Identity. Creating an outstanding Corporate Design with unique colors. Inventing catchy slogans matching our agency name and identity. My main part later: Head of Web & UX.
         </ImageText>
         <ImageText
-          headline="Business part">
-          Establishing a grid system for icons, according to which all new icons are getting created. Some icons get matched into the new grid system, others are getting completely redesigned. A few icons needed to be invented for special cases.
+          headline="Business">
+          Writing a businessplan containing methods like Golden Circle and BMC. Deciding for our target group and generate customers. Doing Marketing. Project Management containing self-organization, team organisation & hierarchies.
         </ImageText>
       </div>
       <Sectiontitle>projects inside the project.</Sectiontitle>
@@ -24,7 +24,7 @@
           headline="Self marketing"
           img="/roundacorner-project1.png"
           alt="image of old blum icons">
-          With our unique brand colors & catchy slogans we designed beermats and stickers. We spread them all over Graz, because great ideas happen in the most unsual places. 
+          With our unique brand colors and catchy slogans we designed beermats and stickers. For our marketing purposes we spread them all over Graz, because great ideas happen in the most unsual places and that's where we meet our customers! 
         </ImageText>
         <ImageText
           headline="Cookbook"
@@ -36,7 +36,7 @@
           headline="G-Teka Rave"
           img="/roundacorner-project2.png"
           alt="image ofnew blum icons">
-          "G-Teka" is a Rave Event of Slovenia, taking place in the nature of its Capital City Maribor. Our design combines and reflects technology & nature. This project included promotion posters and tickets.
+          "G-Teka" is a Rave Event of Slovenia, taking place in the nature of its Capital City Maribor. With our design we combine and reflect both worlds: technology & nature. This project included promotion posters and tickets.
         </ImageText>
       </div>
 
