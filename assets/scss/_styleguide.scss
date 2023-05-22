@@ -309,6 +309,9 @@ header {
     @media screen and (max-width: 600px) {
       display: none;
     }
+    &:hover{
+      color: $white;
+    }
   }
   .mail-mobile{
     @include sub;
@@ -499,9 +502,6 @@ footer{
                 margin: 0;
                 padding: $nano;
                 color: $vibrantviolet;
-              }
-              &:hover{
-                color: $white;
               }
             }   
           }
