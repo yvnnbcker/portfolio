@@ -1,13 +1,13 @@
 <template>
         <div id="projects">
-                <Sectiontitle>projects.</Sectiontitle>
+                <Sectiontitle>projects</Sectiontitle>
                 <div id="card-grid"> 
-                        <Card title="BA Thesis Talk" date="05/2023" 
+                        <Card title="BA Thesis Talk ↗" date="05/2023" 
                                 img="/logo-smartinnovation.jpg" alt="logo from smart innovation podcast" 
                                 tag1="podcast" 
                                 href="https://www.klausreichert.de/verbinden-von-analogen-und-digitalen-welten-im-museum/"                                
                                 target="_blank"/> 
-                        <Card title="BA Silverware Museum" date="02/2023" 
+                        <Card title="BA Silverware Museum ↗" date="02/2023" 
                                 img="/ba.png" alt="hand with smartphone using ar" 
                                 tag1="exhibition" 
                                 tag2="app"

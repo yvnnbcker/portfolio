@@ -16,18 +16,18 @@
             <Sectiontitle>what I do.</Sectiontitle>
             <div id="skill-container" class="section-between-container project-grid3-container">
                 <ImageText
-                headline="Starting at zero.">I enjoy making projects from scratch! Participating in the whole process – from the very beginning until the end.</ImageText>
+                headline="Starting at zero">I enjoy making projects from scratch! Participating in the whole process – from the very beginning until the end, watching the product slowly come to life.</ImageText>
                 <ImageText 
-                headline="Combine both worlds.">I like to be part of UX & UI design – and sometimes even coding. Creating great functional designs never gets boring.</ImageText>                
+                headline="Combining worlds">I like to be part of UX and UI design, and sometimes even coding. It all goes hand in hand. Creating great functional designs never gets boring.</ImageText>                
                 <ImageText 
-                headline="Never stop learning.">It doesn't matter if it's a new tool or technique – I am always eager to learn and improve my skills.</ImageText>
+                headline="Endless learning">It doesn't matter if it's a new tool or technique – I am always eager to learn and improve my skills. Trying to be the best version of myself, never settle for less!</ImageText>
             </div>
            <!-- <div id="more-container" class="section-between-container">
                 <div class="more-title section-title">what I also do.</div>
                 As I already mentioned before: I kinda enjoy programming websites as well. I might not be the best, but it is fun and I enjoy to force myself to learn something new and get better! I also have basic experience in print, 3D modelling, photography and video editing.
             </div>-->
             <div id="tools-container" class="section-container">
-                <div class="tool-title section-title">what I use.</div>
+                <div class="tool-title section-title">what I use (mainly).</div>
                 <div class="logo-container">
                     <img src="/logo-figma.svg" alt="logo figma" class="tool-logo">
                     <img src="/logo-sketch.svg" alt="logo sketch" class="tool-logo">
