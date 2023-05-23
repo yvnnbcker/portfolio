@@ -18,7 +18,7 @@
                                 tag1="branding" 
                                 href="/projects/roundacorner"/>
                         <Card title="Blum Navigation Rework" date="02/2022" 
-                                img="/blum_nav-preview.png" alt="screenshot of a website" 
+                                img="/blum_nav-preview.png" alt="screenshot of blum website" 
                                 tag2="usabilty" 
                                 tag1="web"
                                 href="/projects/blum-navigation"/>  
