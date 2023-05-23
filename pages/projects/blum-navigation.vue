@@ -5,7 +5,7 @@
         title="Navigation Rework"
         subtitle="Blum Facelift"
         date="02/2022"
-        img="/blum_nav-hero.png"
+        img="/blum_nav-hero.jpg"
         alt="screenshot of blum website"
       />
       <div class="project-grid3-container">
@@ -20,19 +20,19 @@
           In our first phase we tested the old navigation. By combining all of our gained insights we sketched several variants. After fine tunung we put two of our created concept into an A/B test. Out of the second testing we then created our final navigation. </ImageText>
         </div>
         <ImagesTwo
-        img1="/blum_nav-old1.png"
+        img1="/blum_nav-old1.jpg"
         alt1="screenshot of former website navigation"
         desc1="old navigation, state closed"
-        img2="/blum_nav-old2.png"
+        img2="/blum_nav-old2.jpg"
         alt2="screenshot of former website navigation"
-        desc2="old navigation, fully collapsed"/>
+        desc2="old navigation, fully unfolded"/>
         <ImageUno
-        img="/blum_nav-new1.png"
+        img="/blum_nav-new1.jpg"
         alt="screenshot of website navigation"
         desc="navigation after, new products area"
         />
         <ImageUno
-        img="/blum_nav-new2.png"
+        img="/blum_nav-new2.jpg"
         alt="screenshot of website navigation"
         desc="navigation after, product category"
         />
