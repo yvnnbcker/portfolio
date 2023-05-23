@@ -10,7 +10,7 @@ definePageMeta({
       <Heroimage
         subtitle="Webdesign & Development"
         title="Green Party Schorndorf"
-        date="12/2021"
+        date="10/2020"
         img="/gruene-hero.png"
         imgmobile="/gruene-heromobile.png"
         alt="desk with laptop, smartphone and tablet"
