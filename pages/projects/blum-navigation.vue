@@ -6,6 +6,7 @@
         subtitle="Blum Facelift"
         date="02/2022"
         img="/blum_nav-hero.jpg"
+        imgmobile="/blum_nav-heromobile.jpg"
         alt="screenshot of blum website"
       />
       <div class="project-grid3-container">

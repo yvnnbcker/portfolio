@@ -5,6 +5,6 @@
 <template>
     <div class="project-text">
         <h3>{{ content.headline }}</h3>
-        <p>{{ content.text }}</p>
+        <slot/>
     </div>
 </template>
