@@ -6,9 +6,10 @@
     <div id="infobox">
         <Line />
         <div class="project-info">
-            <div v-if="info.team1!==undefined" class="project-team">
+            <div v-if="info.teamtitle!==undefined" class="project-team">
                 <b>{{ info.teamtitle }}</b>
                 <div class="team-container">
+                    <slot/>
                     <a :href="info.href1" class="no-style"><img :src=info.team1 class="teammember"/></a>
                     <a :href="info.href2" class="no-style"><img v-if="info.team2!==undefined" :src=info.team2 class="teammember"/></a>
                     <a :href="info.href3" class="no-style"><img v-if="info.team3!==undefined" :src=info.team3 class="teammember"/></a>

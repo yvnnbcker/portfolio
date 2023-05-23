@@ -27,10 +27,10 @@
                                 tag1="web" 
                                 href="/projects/blum-icons"/>   
                         <Card title="Green Party Schorndorf" date="03/2021" 
-                                img="/bsp.png" alt="mockup of green party schorndorf website" 
-                                tag2="coming soon" 
+                                img="/gruene-preview.png" alt="mockup of green party schorndorf website" 
+                                tag2="dev" 
                                 tag1="web"
-                                href="/comingsoon"/>    
+                                href="/projects/greenparty-schorndorf"/>    
                 </div>
         </div>
 </template>

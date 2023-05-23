@@ -8,7 +8,6 @@
         img="/roundacorner-hero.gif"
         imgmobile="/roundacorner-heromobile.gif"
         alt="picture of 7 young women"/>
-      <div class="note">*Note: This project contained several disciplines, but can be parted into two main areas for quick overview (:</div>
       <div class="project-grid2-container">
         <ImageText
           headline="Design">

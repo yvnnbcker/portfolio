@@ -20,7 +20,7 @@
             </ul>
             <ul class="footer-about">
                 <li>
-                    <NuxtLink class="button-footer" to="/about">© Yvonne Becker,</NuxtLink>  
+                    <NuxtLink class="button-footer" to="/about">©2023 Yvonne Becker,</NuxtLink>  
                     <div class="job">Interaction Designer</div>                   
                 </li>
             </ul>
