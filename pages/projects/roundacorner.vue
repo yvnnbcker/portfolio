@@ -19,7 +19,7 @@
         </ImageText>
       </div>
       <Sectiontitle>projects inside the project.</Sectiontitle>
-      <div class="project-grid3-container">
+      <div class="project-grid3-container special">
         <ImageText
           headline="Self marketing"
           img="/roundacorner-project1.png"

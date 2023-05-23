@@ -21,7 +21,7 @@
                                 img="/blum_nav-preview.png" alt="screenshot of a website" 
                                 tag2="coming soon" 
                                 tag1="web"
-                                href="/comingsoon"/>  
+                                href="/projects/blum-navigation"/>  
                         <Card title="Blum Icons Redesign" date="12/2021" 
                                 img="/blum_icons-preview.png" alt="various icons" 
                                 tag1="web" 

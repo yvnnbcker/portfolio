@@ -5,12 +5,12 @@
 <template>
     <div id="project-images">
         <div class="project-image">
-            <img :src=project.img1 :alt=project.alt1 />
+            <img :src="project.img1" :alt="project.alt1" />
             <div class="image-desc">{{ project.desc1 }}</div>
         </div>
         
         <div class="project-image">
-            <img :src=project.img2 :alt=project.alt2 />
+            <img :src="project.img2" :alt="project.alt2" />
             <div class="image-desc">{{ project.desc2 }}</div>
         </div>
     </div>

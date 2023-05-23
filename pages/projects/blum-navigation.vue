@@ -8,22 +8,34 @@
         img="/blum_nav-hero.png"
         alt="screenshot of blum website"
       />
-      <div class="project-grid2-container">
+      <div class="project-grid3-container">
         <ImageText
-          headline="Problem ?"
-          img="/blum_nav-old.png"
-          alt="image of old blum navigation"
-          desc="navigation before redesign">
-          The previous icons look very different – especially in terms of size, stroke width and style. Therefore, they do not result in a harmonious visual language.
-        </ImageText>
+          headline="Problem?">
+          Over the years, many products have been added to their product line and the navigation was simply expanded. This made it all unclear and extremely nested. Also, the burger menu as main interaction element of could not be found or is not recognized as such, especially on the desktop.        </ImageText>
         <ImageText
-          headline="Challenges ?!"
-          img="/blum_nav-new.png"
-          alt="image ofnew blum icons"
-          desc="icons after redesign">
-          Establishing a grid system for icons, according to which all new icons are getting created. Some icons get matched into the new grid system, others are getting completely redesigned. A few icons needed to be invented for special cases.
-        </ImageText>
-      </div>
+          headline="Challenges@">
+          On the one hand, re-sorting and hierarchization of the individual navigation points. On the other hand a more clear color coding. In addition, it is also important to consider that their products have cryptic names and yet they should be easily recognized or found in their large assortment. </ImageText>
+          <ImageText
+          headline="Testing!">
+          In our first phase we tested the old navigation. By combining all of our gained insights we sketched several variants. After fine tunung we put two of our created concept into an A/B test. Out of the second testing we then created our final navigation. </ImageText>
+        </div>
+        <ImagesTwo
+        img1="/blum_nav-old1.png"
+        alt1="screenshot of former website navigation"
+        desc1="old navigation, state closed"
+        img2="/blum_nav-old2.png"
+        alt2="screenshot of former website navigation"
+        desc2="old navigation, fully collapsed"/>
+        <ImageUno
+        img="/blum_nav-new1.png"
+        alt="screenshot of website navigation"
+        desc="navigation after, new products area"
+        />
+        <ImageUno
+        img="/blum_nav-new2.png"
+        alt="screenshot of website navigation"
+        desc="navigation after, product category"
+        />
     </div>
     <Infobox
         teamtitle="Agency"
@@ -35,7 +47,7 @@
         tool4="/logo-jira.svg"
         tool5="/logo-protopie.svg"
         href="https://www.blum.com/"
-        buttontext="visit website"
+        buttontext="try out"
         />
     </div>
 </template>

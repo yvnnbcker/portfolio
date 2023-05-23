@@ -261,6 +261,12 @@
         grid-template-columns: 1fr;
     }
     .card-headline{
+        padding-bottom: $xxs;
+    }
+}
+
+.special{
+    .card-headline{
         padding: $xxs $xs;
         border: 3px solid $black;
     }
