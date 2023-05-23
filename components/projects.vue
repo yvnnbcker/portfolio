@@ -19,7 +19,7 @@
                                 href="/projects/roundacorner"/>
                         <Card title="Blum Navigation Rework" date="02/2022" 
                                 img="/blum_nav-preview.png" alt="screenshot of a website" 
-                                tag2="coming soon" 
+                                tag2="usabilty" 
                                 tag1="web"
                                 href="/projects/blum-navigation"/>  
                         <Card title="Blum Icons Redesign" date="12/2021" 
