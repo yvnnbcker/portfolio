@@ -9,7 +9,7 @@
         imgmobile="/blum_nav-heromobile.jpg"
         alt="screenshot of blum website"
       />
-      <div class="project-grid3-container">
+      <div class="project-grid3-container extra-margin">
         <ImageText
           headline="Problem?">
           Over the years, many products have been added to their product line and the navigation was simply expanded. This made it all unclear and extremely nested. Also, the burger menu as main interaction element of could not be found or is not recognized as such, especially on the desktop.        </ImageText>

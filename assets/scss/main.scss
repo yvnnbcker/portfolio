@@ -212,9 +212,9 @@
 #project-content-container{
     display: flex;
     flex-direction: column;
-    padding: $xl 0 $xxl 0;
+    padding: $xl 0 $xl 0;
     @media screen and (max-width: 600px) {
-        padding: $l 0 $s 0;          
+        padding: $l 0 $m 0;          
     }
 }
 
@@ -273,6 +273,7 @@
     .image-text-content{
         display: flex;
         flex-direction: column-reverse;
+        padding-top: $xs;
         .project-image{
             padding-top: 0;
         }

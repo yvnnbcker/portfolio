@@ -14,7 +14,7 @@
         </Headertext>
         <div id="aboutme" class="section-container"> 
             <Sectiontitle>what I do.</Sectiontitle>
-            <div id="skill-container" class="section-between-container project-grid3-container">
+            <div id="skill-container" class="special section-between-container project-grid3-container">
                 <ImageText
                 headline="Starting at zero">I enjoy making projects from scratch! Participating in the whole process – from the very beginning until the end, watching the product slowly come to life.</ImageText>
                 <ImageText 

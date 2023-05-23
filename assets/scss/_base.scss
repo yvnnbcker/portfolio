@@ -525,3 +525,13 @@ li {
     padding-bottom: $l;
   }
 }
+
+.extra-margin{
+  margin-bottom: $l;
+  @media screen and (max-width: 1024px) and (min-width: 601px) {
+    margin-bottom: $m;
+  }
+  @media screen and (max-width: 600px) {
+    margin-bottom: $m;
+  }
+}

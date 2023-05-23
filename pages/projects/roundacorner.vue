@@ -8,7 +8,7 @@
         img="/roundacorner-hero.gif"
         imgmobile="/roundacorner-heromobile.gif"
         alt="picture of 7 young women"/>
-      <div class="project-grid2-container">
+      <div class="project-grid2-container extra-margin">
         <ImageText
           headline="Design">
           Branding: deciding for our brand name, defining who we are and therefore establishing our Corporate Identity. Creating an outstanding Corporate Design with unique colors. Inventing catchy slogans matching our agency name and identity. My main part later: Head of Web & UX.
