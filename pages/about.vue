@@ -61,8 +61,8 @@
             </div>
             <div class="career-content">
                 <div class="career-text">
-                    <div class="event"><h1>*</h1></div>                
-                    <div class="event"><h1>[…]</h1></div>
+                    <div class="event"><h1>[…]</h1></div>                
+                    <div class="event"><h1>*</h1></div>
                 </div>
                 <div class="career-currently">            
                     <div class="career-text">
