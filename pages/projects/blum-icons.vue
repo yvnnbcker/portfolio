@@ -9,7 +9,7 @@
         imgmobile="/blum_icons-heromobile.png"
         alt="two setting icons in orange and dark blue"
       />
-      <div class="project-grid2-container">
+      <div class="project-grid2-container extra-padding">
         <ImageText
           headline="Problem?"
           img="/blum_icons-old.png"

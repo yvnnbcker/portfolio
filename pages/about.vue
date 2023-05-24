@@ -16,11 +16,11 @@
             <Sectiontitle>what I do.</Sectiontitle>
             <div id="skill-container" class="special section-between-container project-grid3-container">
                 <ImageText
-                headline="Starting at zero">I enjoy making projects from scratch! Participating in the whole process – from the very beginning until the end, watching the product slowly come to life.</ImageText>
+                headline="Starting at zero"><div class="extra-paddingsmall">I enjoy making projects from scratch! Participating in the whole process – from the very beginning until the end, watching the product slowly come to life.</div></ImageText>
+                <ImageText
+                headline="Combining worlds"><div class="extra-paddingsmall">I like to be part of UX and UI design, and sometimes even coding. It all goes hand in hand. Creating great functional designs never gets boring.</div></ImageText>                
                 <ImageText 
-                headline="Combining worlds">I like to be part of UX and UI design, and sometimes even coding. It all goes hand in hand. Creating great functional designs never gets boring.</ImageText>                
-                <ImageText 
-                headline="Endless learning">It doesn't matter if it's a new tool or technique – I am always eager to learn and improve my skills. Trying to be the best version of myself, never settle for less!</ImageText>
+                headline="Endless learning"><div class="extra-paddingsmall">It doesn't matter if it's a new tool or technique – I am always eager to learn and improve my skills. Trying to be the best version of myself, never settle for less!</div></ImageText>
             </div>
            <!-- <div id="more-container" class="section-between-container">
                 <div class="more-title section-title">what I also do.</div>

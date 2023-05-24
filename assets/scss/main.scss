@@ -81,7 +81,7 @@
     @media screen and (max-width: 600px) {
         display: flex;
         column-gap: $xs;
-        row-gap: $xs;
+        row-gap: $m;
         padding: $s 0 $xl 0;
         flex-direction: column;
     }
@@ -95,7 +95,7 @@
     flex-direction: column;
     #skill-container{
         display: grid;
-        
+        padding: $s 0 $l 0;
         @media screen and (max-width: 600px) {
             flex-direction: column;
         }
@@ -223,7 +223,6 @@
     grid-template-columns: 1fr 1fr;
     column-gap: $xl;
     row-gap: $l;
-    padding: $l 0 $m 0;
     @media screen and (max-width: 1024px) and (min-width: 601px) {
         column-gap: $l;
         row-gap: $l;
@@ -247,14 +246,13 @@
     padding: $l 0 $m 0;
     @media screen and (max-width: 1024px) and (min-width: 601px) {
         column-gap: $m;
-        row-gap: $l;
+        row-gap: $m;
       }
     @media screen and (max-width: 768px) and (min-width: 601px){
         grid-template-columns: 1fr 1fr;
+        padding: $m 0 $m 0;
     }
     @media screen and (max-width: 600px) {
-        display: flex;
-        flex-direction: column;
         column-gap: $xs;
         row-gap: $m;  
         padding: $xs 0;  
@@ -273,7 +271,6 @@
     .image-text-content{
         display: flex;
         flex-direction: column-reverse;
-        padding-top: $xs;
         .project-image{
             padding-top: 0;
         }

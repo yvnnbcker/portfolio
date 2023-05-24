@@ -8,14 +8,14 @@ definePageMeta({
   <div>
     <div id="project-content-container">
       <Heroimage
-        subtitle="Webdesign & Development"
+        subtitle="Creating A Website"
         title="Green Party Schorndorf"
         date="10/2020"
         img="/gruene-hero.png"
         imgmobile="/gruene-heromobile.png"
         alt="desk with laptop, smartphone and tablet"
       />
-      <div class="project-grid2-container">
+      <div class="project-grid2-container extra-padding extra-margin">
         <ImageText
           headline="Design & Development">
           As visual orientation of the local association of the Green Party in Schorndorf, served the main party website. The already existing style guide was applied to the overall wesbdesign, this included typography and colors. Playful illustrations were made for a young appearance. The website was implemented by using Kirby CMS and responsive for three different viewports.
