@@ -34,3 +34,9 @@
                 </div>
         </div>
 </template>
+
+<script>
+definePageMeta({
+  scrollPos:{ x:0, y:0}
+});
+  </script>

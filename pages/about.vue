@@ -1,5 +1,11 @@
 <script setup>
     const header = defineProps(['headline', 'desc', 'href', 'icon', 'button', 'img', 'alt']);
+
+    import { onMounted } from 'vue'
+
+    onMounted(() => {
+    window.scrollTo(0, 0)
+    })
 </script>
 
 <template>

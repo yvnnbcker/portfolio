@@ -8,7 +8,11 @@ export default defineNuxtConfig({
         title: 'Yvonne Becker, Interaction Designerin',
         name: 'description',
         content: 'My Interaction Design Portfolio – UI, UX, Web Development, Exhibition and Print Projects',
-        },
+        scrollPos: {
+            x: 0,
+            y: 0
+          }    
+    },
     link: [
         {
         rel: 'stylesheet',

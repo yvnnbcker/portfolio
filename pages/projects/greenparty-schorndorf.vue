@@ -1,9 +1,3 @@
-<script>
-definePageMeta({
-  layout: "project-layout",
-});
-</script>
-
 <template>
   <div>
     <div id="project-content-container">
@@ -60,3 +54,17 @@ definePageMeta({
         <ul><li>Lara Weiblen</li><li>Pauline Koch </li><li>Nils Jacobsen</li><li>Niklas Buchfink</li></ul></Infobox>
     </div>
 </template>
+
+<script>
+definePageMeta({
+  layout: "project-layout"
+});
+</script>
+
+<script setup>
+import { onMounted } from 'vue'
+
+onMounted(() => {
+  window.scrollTo(0, 0)
+})
+</script>
