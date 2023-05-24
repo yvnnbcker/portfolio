@@ -286,6 +286,13 @@ li {
     width: 300px;
   }
 }
+.backgroundsmall{
+  .background-container{
+    position: absolute;
+    z-index: -1;
+    top: -25vw;
+  }
+}
 .background{
   width: 100%;
   position: relative;
