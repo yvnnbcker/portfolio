@@ -290,7 +290,10 @@ li {
   .background-container{
     position: absolute;
     z-index: -1;
-    top: -25vw;
+    top: -8vw;
+    @media screen and (max-width: 600px) {
+      top: -25vw;
+    }
   }
 }
 .background{
