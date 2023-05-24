@@ -11,13 +11,13 @@
       />
       <div class="project-grid3-container extra-margin">
         <ImageText
-          headline="Problem?">
+          headline="Problems?">
           Over the years, many products have been added to their product line and the navigation was simply expanded. This made it all unclear and extremely nested. Also, the burger menu as main interaction element of could not be found or is not recognized as such, especially on the desktop.        </ImageText>
         <ImageText
-          headline="Challenges@">
+          headline="Challenges">
           On the one hand, re-sorting and hierarchization of the individual navigation points. On the other hand a more clear color coding. In addition, it is also important to consider that their products have cryptic names and yet they should be easily recognized or found in their large assortment. </ImageText>
           <ImageText
-          headline="Testing!">
+          headline="Testings!">
           In our first phase we tested the old navigation. By combining all of our gained insights we sketched several variants. After fine tunung we put two of our created concept into an A/B test. Out of the second testing we then created our final navigation. </ImageText>
         </div>
         <ImagesTwo
