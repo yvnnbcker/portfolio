@@ -32,6 +32,9 @@
                                 tag1="web"
                                 href="/projects/greenparty-schorndorf"/>    
                 </div>
+                <Buttonicon href="/moreprojects-yvonnebecker.pdf" icon="download" target="_blank">
+                                download pdf for more
+                </Buttonicon>
         </div>
 </template>
 

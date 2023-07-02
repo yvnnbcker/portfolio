@@ -55,7 +55,13 @@
     }
 }
 #projects{
-    padding: $s 0 0 0;
+    padding: $s 0 $xxl 0;
+    @media screen and (max-width: 1024px) and (min-width: 601px) {
+        padding: $s 0 $xl 0;
+    }
+    @media screen and (max-width: 600px) {
+        padding: $s 0 $xl 0;
+    }
     .projects-preview{
         padding-bottom: $xs;
         @media screen and (max-width: 1024px) and (min-width: 601px) {
@@ -72,17 +78,17 @@
     grid-template-columns: 1fr 1fr;
     column-gap: $m;
     row-gap: $m;
-    padding: $m 0 $xxl 0;
+    padding: $m 0 $xl 0;
     @media screen and (max-width: 1024px) and (min-width: 601px) {
         column-gap: $s;
         row-gap: $s;
-        padding: $m 0 $xl 0;
+        padding: $m 0;
       }
     @media screen and (max-width: 600px) {
         display: flex;
         column-gap: $xs;
         row-gap: $m;
-        padding: $s 0 $xl 0;
+        padding: $s 0 $s 0;
         flex-direction: column;
     }
 }
