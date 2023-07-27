@@ -9,6 +9,18 @@
         imgmobile="/blum_nav-heromobile.jpg"
         alt="screenshot of blum website"
       />
+      <Infobox
+        teamtitle="Agency"
+        team1="/logo-21torr.svg"
+        href1="https://www.21torr.com/"
+        tool1="/logo-sketch.svg"
+        tool2="/logo-miro.svg"
+        tool3="/logo-teams.svg"
+        tool4="/logo-jira.svg"
+        tool5="/logo-protopie.svg"
+        href="https://www.blum.com/"
+        buttontext="try out"
+        />
       <div class="project-grid3-container extra-margin">
         <ImageText
           headline="Problems?">
@@ -20,6 +32,7 @@
           headline="Testings!">
           In our first phase we tested the old navigation. By combining all of our gained insights we sketched several variants. After fine tunung we put two of our created concept into an A/B test. Out of the second testing we then created our final navigation. </ImageText>
         </div>
+        <Sectiontitle>impressions</Sectiontitle>
         <ImagesTwo
         img1="/blum_nav-old1.jpg"
         alt1="screenshot of former website navigation"
@@ -37,19 +50,7 @@
         alt="screenshot of website navigation"
         desc="navigation after, product category"
         />
-    </div>
-    <Infobox
-        teamtitle="Agency"
-        team1="/logo-21torr.svg"
-        href1="https://www.21torr.com/"
-        tool1="/logo-sketch.svg"
-        tool2="/logo-miro.svg"
-        tool3="/logo-teams.svg"
-        tool4="/logo-jira.svg"
-        tool5="/logo-protopie.svg"
-        href="https://www.blum.com/"
-        buttontext="try out"
-        />
+      </div>
     </div>
 </template>
 

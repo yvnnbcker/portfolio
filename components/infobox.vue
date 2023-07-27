@@ -48,5 +48,6 @@
                 <Buttonicon icon="arrow-right" color="accent-new" :href="info.href" :class="info.buttoncolor" class="buttonsmall-icon">{{ info.buttontext }}</Buttonicon>
             </div>
         </div>
+        <Line />
     </div>
 </template>

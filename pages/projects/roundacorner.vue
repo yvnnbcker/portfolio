@@ -8,6 +8,18 @@
         img="/roundacorner-hero.gif"
         imgmobile="/roundacorner-heromobile.gif"
         alt="picture of 7 young women"/>
+        <Infobox
+        teamtitle="University"
+        team1="/logo-fhjoanneum.svg"
+        href1="https://www.fh-joanneum.at/"
+        tool1="/logo-figma.svg"
+        tool2="/logo-miro.svg"
+        tool3="/logo-vs.svg"
+        tool4="/logo-teams.svg"
+        tool5="/logo-adobe.svg"
+        href="https://roundacorner.design/"
+        buttontext="visit agency"
+        />
       <div class="project-grid2-container extra-padding extra-margin">
         <ImageText
           headline="Design">
@@ -39,20 +51,7 @@
           "G-Teka" is a Rave Event of Slovenia, taking place in the nature of its Capital City Maribor. With our design we combine and reflect both worlds: technology & nature. This project included promotion posters and tickets.
         </ImageText>
       </div>
-
-    </div>
-    <Infobox
-        teamtitle="University"
-        team1="/logo-fhjoanneum.svg"
-        href1="https://www.fh-joanneum.at/"
-        tool1="/logo-figma.svg"
-        tool2="/logo-miro.svg"
-        tool3="/logo-vs.svg"
-        tool4="/logo-teams.svg"
-        tool5="/logo-adobe.svg"
-        href="https://roundacorner.design/"
-        buttontext="visit agency"
-        />
+      </div>
     </div>
 </template>
 

@@ -43,9 +43,6 @@ header {
   flex-direction: column;
   height: 47vw;
   justify-content: center;
-  @media screen and (min-width: 1600px) {
-      height: 60vw;
-  }
   @media screen and (max-width: 1024px) and (min-width: 601px) {
       height: 80vw;
   }
@@ -392,9 +389,6 @@ footer{
       height: 30vw;
       justify-content: center;
       align-self: center;
-        @media screen and (min-width: 1600px) {
-          height: 50vw;
-        }
         @media screen and (max-width: 1024px) and (min-width: 601px) {
             width: 80%;
             height: 60vw;

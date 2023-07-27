@@ -9,6 +9,14 @@
         imgmobile="/gruene-heromobile.png"
         alt="desk with laptop, smartphone and tablet"
       />
+      <Infobox
+        teamtitle="Team"
+        tool1="/logo-figma.svg"
+        tool2="/logo-kirby.svg"
+        tool3="/logo-vs.svg"
+        href="https://gruene-schorndorf.de/"
+        buttontext="visit website">
+        <ul><li>Lara Weiblen</li><li>Pauline Koch </li><li>Nils Jacobsen</li><li>Niklas Buchfink</li></ul></Infobox>
       <div class="project-grid2-container extra-padding extra-margin">
         <ImageText
           headline="Design & Development">
@@ -43,15 +51,7 @@
           />
       </div>
       <div class="note">*Note: Sadly, in meantime the website was moved back from Kirby CMS to Wordpress due to too high maintenance of php updates. Someone else is hosting now the page. This is the reason why the live version of the website doesn't look like the gallery images anymore if you click the link below.</div>
-    </div>
-    <Infobox
-        teamtitle="Team"
-        tool1="/logo-figma.svg"
-        tool2="/logo-kirby.svg"
-        tool3="/logo-vs.svg"
-        href="https://gruene-schorndorf.de/"
-        buttontext="visit website">
-        <ul><li>Lara Weiblen</li><li>Pauline Koch </li><li>Nils Jacobsen</li><li>Niklas Buchfink</li></ul></Infobox>
+      </div>
     </div>
 </template>
 

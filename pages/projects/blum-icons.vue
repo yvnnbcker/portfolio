@@ -9,6 +9,16 @@
         imgmobile="/blum_icons-heromobile.png"
         alt="two setting icons in orange and dark blue"
       />
+      <Infobox
+        teamtitle="Agency"
+        team1="/logo-21torr.svg"
+        href1="https://www.21torr.com/"
+        tool1="/logo-sketch.svg"
+        tool2="/logo-miro.svg"
+        tool3="/logo-jira.svg"
+        href="https://www.blum.com/"
+        buttontext="visit website"
+        />
       <div class="project-grid2-container extra-padding">
         <ImageText
           headline="Problem?"
@@ -30,17 +40,7 @@
         alt="image of grids and icon forms"
         desc="established icon grid"
         />
-    </div>
-    <Infobox
-        teamtitle="Agency"
-        team1="/logo-21torr.svg"
-        href1="https://www.21torr.com/"
-        tool1="/logo-sketch.svg"
-        tool2="/logo-miro.svg"
-        tool3="/logo-jira.svg"
-        href="https://www.blum.com/"
-        buttontext="visit website"
-        />
+      </div>
     </div>
 </template>
 
