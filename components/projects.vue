@@ -2,10 +2,11 @@
         <div id="projects">
                 <Sectiontitle>projects</Sectiontitle>
                 <div id="card-grid"> 
-                        <Card title="BA Thesis Talk ↗" date="05/2023" 
-                                img="/logo-smartinnovation.jpg" alt="logo from smart innovation podcast" 
-                                tag1="podcast" 
-                                href="https://www.klausreichert.de/verbinden-von-analogen-und-digitalen-welten-im-museum/"                                
+                        <Card title="änny Lern-Spiel-Möbel ↗" date="07/2023" 
+                                img="/aenny-preview.png" alt="screenshot of änny website" 
+                                tag1="coming soon"
+                                tag2="web & dev"
+                                href="https://änny.com"                                
                                 target="_blank"/> 
                         <Card title="BA Silverware Museum ↗" date="02/2023" 
                                 img="/ba.png" alt="hand with smartphone using ar" 
@@ -25,6 +26,7 @@
                         <Card title="Blum Icons Redesign" date="12/2021" 
                                 img="/blum_icons-preview.png" alt="various icons" 
                                 tag1="web" 
+                                tag2="branding"
                                 href="/projects/blum-icons"/>   
                         <Card title="Green Party Schorndorf" date="10/2020" 
                                 img="/gruene-preview.png" alt="mockup of green party schorndorf website" 
