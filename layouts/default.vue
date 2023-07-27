@@ -10,7 +10,7 @@
         <main>
             <Background />
             <Navigation />            
-            <div class="content">                
+            <div class="content">
                 <slot />    
             </div>  
             <Footer />
