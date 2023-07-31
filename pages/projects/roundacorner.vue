@@ -20,7 +20,7 @@
         href="https://roundacorner.design/"
         buttontext="visit agency"
         />
-      <div class="project-grid2-container extra-padding extra-margin">
+      <div class="grid2 extra-padding extra-margin">
         <ImageText
           headline="Design">
           Branding: deciding for our brand name, defining who we are and therefore establishing our Corporate Identity. Creating an outstanding Corporate Design with unique colors. Inventing catchy slogans matching our agency name and identity. My main part later: Head of Web & UX.
@@ -31,7 +31,7 @@
         </ImageText>
       </div>
       <Sectiontitle>projects inside the project.</Sectiontitle>
-      <div class="project-grid3-container special">
+      <div class="grid3 special">
         <ImageText
           headline="Self marketing"
           img="/roundacorner-project1.png"

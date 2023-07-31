@@ -17,7 +17,7 @@
         href="https://gruene-schorndorf.de/"
         buttontext="visit website">
         <ul><li>Lara Weiblen</li><li>Pauline Koch </li><li>Nils Jacobsen</li><li>Niklas Buchfink</li></ul></Infobox>
-      <div class="project-grid2-container extra-padding extra-margin">
+      <div class="grid2 extra-padding extra-margin">
         <ImageText
           headline="Design & Development">
           As visual orientation of the local association of the Green Party in Schorndorf, served the main party website. The already existing style guide was applied to the overall wesbdesign, this included typography and colors. Playful illustrations were made for a young appearance. The website was implemented by using Kirby CMS and responsive for three different viewports.
@@ -28,7 +28,7 @@
         </ImageText>
       </div>
       <Sectiontitle>impressions</Sectiontitle>
-      <div class="project-grid2-container">
+      <div class="grid2">
           <ImageUno
           img="/gruene-gallery1.png"
           alt="screenshot of green party schorndorf website"

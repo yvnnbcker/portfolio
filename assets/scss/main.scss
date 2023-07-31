@@ -4,31 +4,32 @@
 ////////////////////////////////MAIN////////////////////////////////
 
 //CONTENT
-.content{
+.content {
     display: flex;
     flex-direction: column;
 }
 
 //CARD
-#card{
-    a{
+#card {
+    a {
         margin: 0;
         padding: 0;
     }
     .preview-image {
         position: relative;
-        line-height: 0;
-        img{
+        width: 100%;
+        height: auto;
+        img {
             display: block;
             width: 100%;
             filter: grayscale(100);
-            transition: filter 0.2s ease-in-out; 
+            transition: all 0.2s ease-in-out; 
             @media screen and (max-width: 600px) {
                 filter: grayscale(0);
             }
         }    
     }
-    .card-text{
+    .card-text {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -39,14 +40,14 @@
         transition: background-color 0.2s ease-in-out; 
     }
     &:hover {    
-        .card-text{
+        .card-text {
             background-color: $black;
             color: $white;
         }
-        h3{
+        h3 {
             color: $white;
         }
-        img{
+        img {
             filter: grayscale(0);
             @media screen and (max-width: 600px) {
                 filter: grayscale(100);
@@ -54,7 +55,7 @@
         }
     }
 }
-#projects{
+#projects {
     padding: $s 0 $xxl 0;
     @media screen and (max-width: 1024px) and (min-width: 601px) {
         padding: $s 0 $xl 0;
@@ -62,18 +63,9 @@
     @media screen and (max-width: 600px) {
         padding: $s 0 $xl 0;
     }
-    .projects-preview{
-        padding-bottom: $xs;
-        @media screen and (max-width: 1024px) and (min-width: 601px) {
-            padding-bottom: $xxs;
-        }
-        @media screen and (max-width: 600px) {
-            padding-bottom: $nano;
-        }
-    }
 }
 
-#card-grid{
+#card-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: $m;
@@ -99,18 +91,18 @@
 #aboutme {
     display: flex;
     flex-direction: column;
-    #skill-container{
+    #skill-container {
         display: grid;
         padding: $s 0 $l 0;
         @media screen and (max-width: 600px) {
             flex-direction: column;
         }
     }
-    #tools-container{
-        .tool-title{
+    #tools-container {
+        .tool-title {
             @include title;
         }
-        .logo-container{
+        .logo-container {
             padding: 0 0 $nano 0;
             .tool-logo{
                 width: 48px;
@@ -123,7 +115,7 @@
         }
 
     }
-    .career-visual{
+    .career-visual {
         display: flex;
         flex-direction: column;
         align-self: center;
@@ -137,12 +129,12 @@
             margin: $l 0 $m 0;
             height: 250px;
         }
-        svg{
+        svg {
             width: 90vw;
             @media screen and (max-width: 600px) {
                 width: 96vw;
             }
-            path{
+            path {
                 @media screen and (max-width: 1024px) and (min-width: 601px) {
                     stroke-width: 5px;
                   }
@@ -150,7 +142,7 @@
                     stroke-width: 9px;
                 }
             }
-            .path-dash{
+            .path-dash {
                 @media screen and (max-width: 1024px) and (min-width: 601px) {
                     stroke-width: 5px;
                     stroke-dasharray: 5 5;
@@ -162,26 +154,20 @@
             }
         }
     }
-    .career-content{
+    .career-content {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         padding-bottom: $l;
-        .career-currently{
+        .career-currently {
             display: flex;
             flex-direction: row;
             @media screen and (max-width: 600px) {
                 flex-direction: column-reverse;
             }
-            .currently{
-                padding-left: $m;
-                @media screen and (max-width: 600px) {
-                    padding: 0;
-                }
-            }
         }
-        .career-text{
-            .event{
+        .career-text {
+            .event {
                 padding-bottom: 12px;
             }
         }
@@ -190,19 +176,19 @@
 
 
 //COMING SOON
-.comingsoon{
+.comingsoon {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 300px 0 360px 0;
-    p{
+    p {
         padding: $s;
         text-align: center;
     }
 }
 
 //LEGAL
-.legal{
+.legal {
     padding: 160px 0 $huge 0;
     @media screen and (max-width: 1024px) and (min-width: 601px) {
         padding: $xxl 0 $xxl 0;
@@ -213,7 +199,7 @@
 }
 
 //PLAYGROUND
-#playground{
+#playground {
     display: flex;
     flex-direction: column;
     height: 47vw;
@@ -223,7 +209,7 @@
 
 ////////////////////////////////PROJECTPAGES////////////////////////////////
 
-#project-content-container{
+#project-content-container {
     display: flex;
     flex-direction: column;
     padding: $xl 0 $xl 0;
@@ -232,7 +218,7 @@
     }
 }
 
-.project-grid2-container{
+.project-grid2-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: $xl;
@@ -247,11 +233,11 @@
         column-gap: $xs;
         row-gap: $xs;    
     }
-    .card-headline{
+    .card-headline {
         padding-bottom: $xxs;
     }
 }
-.project-grid3-container{
+.grid3 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     align-items: baseline;
@@ -272,17 +258,17 @@
         padding: $xs 0;  
         grid-template-columns: 1fr;
     }
-    .card-headline{
+    .card-headline {
         padding-bottom: $xxs;
     }
 }
 
-.special{
-    .card-headline{
+.special {
+    .card-headline {
         padding: $xxs $xs;
         border: 3px solid $black;
     }
-    .image-text-content{
+    .image-text-content {
         display: flex;
         flex-direction: column-reverse;
         .project-image{
@@ -291,22 +277,22 @@
     }
 }
 
-#hero-image{
+#hero-image {
     display: flex;
     flex-direction: column;
-    .hero-mobile{
+    .hero-mobile {
         display: none;
         @media screen and (max-width: 600px) {
             display: block;
         }
     }
-    .hero-desktop{
+    .hero-desktop {
         display: block;
         @media screen and (max-width: 600px) {
             display: none;
         }
     }
-    .hero-content{
+    .hero-content {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -315,15 +301,14 @@
         @media screen and (max-width: 600px) {
             padding: $xxs $xs;
         }
-        .project-subtitle{
+        .project-subtitle {
             font-weight: 800;
         }
-        .project-headline{
+        .project-headline {
             display: flex;
             flex-direction: column;
         }
-        .project-date{
-
+        .project-date {
             align-self: flex-start;
             @media screen and (max-width: 600px) {
                 display: none;         
@@ -333,9 +318,9 @@
 
 }
 
-.project-text{
+.project-text {
     padding: $m 0;
-    h3{
+    h3 {
         padding: 0 0 $nano 0;
     }
     @media screen and (max-width: 600px) {
@@ -343,10 +328,10 @@
     }
 }
 
-#infobox{
+#infobox {
     display: flex;
     flex-direction: column;
-    .project-info{
+    .project-info {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -355,7 +340,7 @@
         @media screen and (max-width: 600px) {
             padding: $s 0;
         }
-        .project-team, .project-tools, .project-tags, .project-links{
+        .project-team, .project-tools, .project-tags, .project-links {
             display: flex;
             flex-direction: column;
             @media screen and (max-width: 600px) {
@@ -364,22 +349,19 @@
         }
     }
 }
-.team-container, .tool-container, .tag-container{
+.team-container, .tool-container, .tag-container {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     padding: $nano 0 $nano 0;
 }
-.teammember, .project-tool{
-    width: auto;
+.teammember, .project-tool {
+    width: fit-content;
     height: 36px;
     margin: 0 $xxs 0 0;
 }
-.onetag-container{
-    padding: 0 $nano $nano 0;
-}
 
-#project-images{
+#project-images {
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: $m;

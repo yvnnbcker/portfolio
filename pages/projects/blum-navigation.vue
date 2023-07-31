@@ -21,7 +21,7 @@
         href="https://www.blum.com/"
         buttontext="try out"
         />
-      <div class="project-grid3-container extra-margin">
+      <div class="grid3 extra-margin">
         <ImageText
           headline="Problems?">
           Over the years, many products have been added to their product line and the navigation was simply expanded. This made it all unclear and extremely nested. Also, the burger menu as main interaction element of could not be found or is not recognized as such, especially on the desktop.        </ImageText>

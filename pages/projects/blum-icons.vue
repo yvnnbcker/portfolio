@@ -19,7 +19,7 @@
         href="https://www.blum.com/"
         buttontext="visit website"
         />
-      <div class="project-grid2-container extra-padding">
+      <div class="grid2 extra-padding">
         <ImageText
           headline="Problem?"
           img="/blum_icons-old.png"

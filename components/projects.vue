@@ -25,7 +25,7 @@
                                 href="/projects/blum-navigation"/>  
                         <Card title="Blum Icons Redesign" date="12/2021" 
                                 img="/blum_icons-preview.png" alt="various icons" 
-                                tag1="web" 
+                                tag1="webdesign" 
                                 tag2="branding"
                                 href="/projects/blum-icons"/>   
                         <Card title="Green Party Schorndorf" date="10/2020" 
@@ -34,9 +34,7 @@
                                 tag1="web"
                                 href="/projects/greenparty-schorndorf"/>    
                 </div>
-                <Buttonicon href="/moreprojects-yvonnebecker.pdf" icon="download" target="_blank">
-                                download pdf for more
-                </Buttonicon>
+                <Buttonicon href="/moreprojects-yvonnebecker.pdf" icon="download" target="_blank">download pdf for more</Buttonicon>
         </div>
 </template>
 

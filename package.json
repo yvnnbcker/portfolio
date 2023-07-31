@@ -13,5 +13,8 @@
     "nuxt": "3.0.0-rc.8",
     "sass": "^1.54.6",
     "sass-loader": "10"
+  },
+  "dependencies": {
+    "vue-slick-carousel": "^1.0.6"
   }
 }

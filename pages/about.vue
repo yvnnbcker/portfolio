@@ -20,7 +20,7 @@
         </Headertext>
         <div id="aboutme" class="section-container"> 
             <Sectiontitle>what I do.</Sectiontitle>
-            <div id="skill-container" class="special section-between-container project-grid3-container">
+            <div id="skill-container" class="special section-between-container grid3">
                 <ImageText
                 headline="Starting at zero"><div class="extra-paddingsmall">I enjoy making projects from scratch! Participating in the whole process – from the very beginning until the end, watching the product slowly come to life.</div></ImageText>
                 <ImageText
@@ -66,20 +66,18 @@
                 </div>
                 <div class="career-currently">            
                     <div class="career-text">
+                        <div class="event"><div class="date">02/2023</div><b>Bachelor of Arts @HfG</b></div>
                         <div class="event"><div class="date">09/2019 – 02/2023</div><b>Interaction Design @HfG</b></div>
                         <div class="event"><div class="date">02/2022 – 08/2022</div><b>Erasmus @FH Joanneum, AT</b></div>
                         <div class="event"><div class="date">08/2021 – 02/2022</div><b>Design Internship @21TORR</b></div>
-                        <div class="event"><div class="date">10/2020 – 04/2021</div><b>Webproject 2: Anne Kowatsch</b></div>
-                        <div class="event"><div class="date">08/2020 – 10/2020</div><b>Webproject 1: Green Party</b></div>
-                    </div>
-                    <div class="career-text currently">
-                        <div class="event"><div class="date">02/2023</div> 
-                        <b>Bachelor of Arts @HfG</b></div>
+                        <div class="event"><div class="date">10/2020 – 04/2021</div><b>Website: Anne Kowatsch</b></div>
+                        <div class="event"><div class="date">08/2020 – 10/2020</div><b>Website: Green Party</b></div>
                     </div>
                 </div>
                 <div class="career-text">
                     <div class="event"><h1 class="accent-color">?</h1></div>
                     <div class="event"><b class="accent-color">YOU</b></div>
+                    <div class="event"><div class="date">07/2023</div><b>Website: änny Lernspielmöbel</b></div>
                 </div>
             </div>
             <Buttonicon href="/cv-yvonnebecker.pdf" icon="download" target="_blank">
