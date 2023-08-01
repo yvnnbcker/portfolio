@@ -167,6 +167,10 @@
             display: flex;
             flex-direction: column;
             row-gap: $xxs;
+            a {
+                margin: 0;
+                padding: 0;
+            }
             .event-box {
                 display: flex;
                 flex-direction: column;
@@ -185,6 +189,9 @@
                 @media screen and (max-width: 600px) {
                     width: 64px;
                     height: 64px;
+                }
+                &:hover {
+                    background-color: $black;
                 }
             }            
         }

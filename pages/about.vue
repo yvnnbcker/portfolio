@@ -74,10 +74,10 @@
                     </div>
                 </div>
                 <div class="career-text">
-                    <div class="event-box">            
-                        <h1 class="accent-text">?</h1>
-                        <b class="accent-text">YOU</b>
-                    </div>
+                        <a href="mailto: yvonnebecker93@web.de" class="event-box">      
+                            <h1 class="accent-text">?</h1>
+                            <b class="accent-text">YOU</b>
+                        </a>     
                     <div class="event"><div class="date">07/2023</div><b>Website: änny Lernspielmöbel</b></div>
                 </div>
             </div>
