@@ -275,7 +275,7 @@ header {
   margin: 0 $s;
   height: 30px;
   transition: background-color, color 0.1s ease-out; 
-  &:active{
+  &:active {
     background-color: $vibrantviolet;
     color: $white;
     transition: background-color, color 0.1s ease-out; 
@@ -351,15 +351,15 @@ nav {
       padding: 0;
       margin: 0 $nano;
      }
-    a{
+    a {
       padding: 0;
       margin: 0;
     }
-    #logo{
+    #logo {
       width: 48px;
       height: 48px;
       transition: transform .5s ease-in-out;
-      &:hover{
+      &:hover {
         background-color: $black;
         transform: rotate(180deg);
         transition: transform .5s ease-in-out;
