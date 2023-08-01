@@ -66,8 +66,7 @@
                 </div>
                 <div class="career-currently">            
                     <div class="career-text">
-                        <div class="event"><div class="date">02/2023</div><b>Bachelor of Arts @HfG</b></div>
-                        <div class="event"><div class="date">09/2019 – 02/2023</div><b>Interaction Design @HfG</b></div>
+                        <div class="event"><div class="date">09/2019 – 02/2023</div><b>Interaction Design, BA @HfG</b></div>
                         <div class="event"><div class="date">02/2022 – 08/2022</div><b>Erasmus @FH Joanneum, AT</b></div>
                         <div class="event"><div class="date">08/2021 – 02/2022</div><b>Design Internship @21TORR</b></div>
                         <div class="event"><div class="date">10/2020 – 04/2021</div><b>Website: Anne Kowatsch</b></div>
@@ -75,8 +74,10 @@
                     </div>
                 </div>
                 <div class="career-text">
-                    <div class="event"><h1 class="accent-color">?</h1></div>
-                    <div class="event"><b class="accent-color">YOU</b></div>
+                    <div class="event-box">            
+                        <h1 class="accent-text">?</h1>
+                        <b class="accent-text">YOU</b>
+                    </div>
                     <div class="event"><div class="date">07/2023</div><b>Website: änny Lernspielmöbel</b></div>
                 </div>
             </div>

@@ -159,21 +159,37 @@
         flex-direction: row;
         justify-content: space-between;
         padding-bottom: $l;
-        .career-currently {
-            display: flex;
-            flex-direction: row;
-            @media screen and (max-width: 600px) {
-                flex-direction: column-reverse;
-            }
+        @media screen and (max-width: 600px) {
+            flex-direction: column-reverse;
+            row-gap: $xxs;
         }
         .career-text {
-            .event {
-                padding-bottom: 12px;
-            }
+            display: flex;
+            flex-direction: column;
+            row-gap: $xxs;
+            .event-box {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                width: 80px;
+                height: 80px;
+                background-color: $vibrantviolet;
+                margin-bottom: $nano;
+                b, h1 {
+                    color: $white;
+                    padding: 0;
+                    margin: 0;
+                    line-height: .9;
+                }
+                @media screen and (max-width: 600px) {
+                    width: 64px;
+                    height: 64px;
+                }
+            }            
         }
     }
 }
-
 
 //COMING SOON
 .comingsoon {
