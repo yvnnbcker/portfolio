@@ -21,35 +21,17 @@
         href="https://www.blum.com/"
         buttontext="try out"
         />
-      <div class="grid3 extra-margin">
-        <ImageText
-          headline="Problems?">
-          Over the years, many products have been added to their product line and the navigation was simply expanded. This made it all unclear and extremely nested. Also, the burger menu as main interaction element of could not be found or is not recognized as such, especially on the desktop.        </ImageText>
-        <ImageText
-          headline="Challenges">
-          On the one hand, re-sorting and hierarchization of the individual navigation points. On the other hand a more clear color coding. In addition, it is also important to consider that their products have cryptic names and yet they should be easily recognized or found in their large assortment. </ImageText>
-          <ImageText
-          headline="Testings!">
-          In our first phase we tested the old navigation. By combining all of our gained insights we sketched several variants. After fine tunung we put two of our created concept into an A/B test. Out of the second testing we then created our final navigation. </ImageText>
-        </div>
-        <Sectiontitle>impressions</Sectiontitle>
-        <ImagesTwo
-        img1="/blum_nav-old1.jpg"
-        alt1="screenshot of former website navigation"
-        desc1="old navigation, state closed"
-        img2="/blum_nav-old2.jpg"
-        alt2="screenshot of former website navigation"
-        desc2="old navigation, fully unfolded"/>
-        <ImageUno
-        img="/blum_nav-new1.jpg"
-        alt="screenshot of website navigation"
-        desc="navigation after, new products area"
-        />
-        <ImageUno
-        img="/blum_nav-new2.jpg"
-        alt="screenshot of website navigation"
-        desc="navigation after, product category"
-        />
+        <Sectiontitle>what to tackle</Sectiontitle>
+        <Text
+          headline="Define problems"
+          desc="The old navigation was put to test. The burger menu as main interaction element could not be found or is not recognized as such, especially on the desktop. Plus over years, many products have been added to their product line and the navigation was simply expanded. This made it all unclear and extremely nested."
+          />
+          <BlumOld />
+          <Text
+          headline="Discover solution space"
+          desc="One challenge to face was re-sorting and hierarchizing the individual navigation points. Furthermore a more clear color coding was needed. In addition, it is also important to consider that their products have cryptic names and yet they should be easily recognized or found in their large assortment. Several variants were sketched and evaluated. Two of the created concepts were put into A/B testing for the final end product."/>
+        <Sectiontitle>solution</Sectiontitle>
+        <BlumNew />
       </div>
     </div>
 </template>

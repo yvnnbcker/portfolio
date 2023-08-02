@@ -845,13 +845,6 @@
   resolved "https://registry.npmjs.org/@humanwhocodes/object-schema/-/object-schema-1.2.1.tgz"
   integrity sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==
 
-"@img-comparison-slider/vue@^8.0.0":
-  version "8.0.0"
-  resolved "https://registry.npmjs.org/@img-comparison-slider/vue/-/vue-8.0.0.tgz"
-  integrity sha512-1gir2JlS8ZQLK2lzk4gIp6fuNvOR8UFXaPiHnBrF6fEwIXdMiI5veobi479FV6Tekj8CIhK+pLUPs+NvcOHd5g==
-  dependencies:
-    img-comparison-slider "~8.0.0"
-
 "@import-maps/resolve@^1.0.1":
   version "1.0.1"
   resolved "https://registry.npmjs.org/@import-maps/resolve/-/resolve-1.0.1.tgz"
@@ -8451,11 +8444,6 @@ ignore@^5.2.0, ignore@^5.2.4:
   version "5.2.4"
   resolved "https://registry.npmjs.org/ignore/-/ignore-5.2.4.tgz"
   integrity sha512-MAb38BcSbH0eHNBxn7ql2NH/kX33OkB3lZ1BNdh7ENeRChHTYsTvWrMubiIAMNS2llXEEgZ1MUOBtXChP3kaFQ==
-
-img-comparison-slider@~8.0.0:
-  version "8.0.0"
-  resolved "https://registry.npmjs.org/img-comparison-slider/-/img-comparison-slider-8.0.0.tgz"
-  integrity sha512-ZOKkdN/+W/U/2LFEwrZuxRVbIwQK1GyEKhTETfsy55/bmBoNfM81MnQsc1j81Q50dkwTKjuecicsnp3O7lBRqQ==
 
 immutable@^4.0.0:
   version "4.2.4"
@@ -16756,20 +16744,6 @@ vue-router@^4.1.3:
   dependencies:
     "@vue/devtools-api" "^6.1.4"
 
-vue-slick-carousel@^1.0.6:
-  version "1.0.6"
-  resolved "https://registry.npmjs.org/vue-slick-carousel/-/vue-slick-carousel-1.0.6.tgz"
-  integrity sha512-1CN/hpWC8m1U/eO7Kuc71jntJqdg6Z/ieLji21OPfQUhs8ZYnnGhQSu1covpa3IyuovM9T5puPCVgexs3DDF5A==
-  dependencies:
-    enquire.js "2.1.6"
-    json2mq "0.2.0"
-    lodash.assign "^4.2.0"
-    lodash.debounce "^4.0.8"
-    lodash.get "^4.4.2"
-    lodash.pick "^4.4.0"
-    resize-observer-polyfill "1.5.1"
-    vue "^2.6.10"
-
 vue@^2.6.10:
   version "2.7.14"
   resolved "https://registry.npmjs.org/vue/-/vue-2.7.14.tgz"
@@ -16788,6 +16762,11 @@ vue@^3.0.0, vue@^3.2.0, vue@^3.2.25, vue@^3.2.37, vue@>=3, vue@3.2.38:
     "@vue/runtime-dom" "3.2.38"
     "@vue/server-renderer" "3.2.38"
     "@vue/shared" "3.2.38"
+
+vue3-carousel@^0.3.1:
+  version "0.3.1"
+  resolved "https://registry.npmjs.org/vue3-carousel/-/vue3-carousel-0.3.1.tgz"
+  integrity sha512-86vUkNPBzL2PVuR9w6hUsI90ccFjLp+K8cSFpRTISf+SjUQY3fMHc5CFF5MUL62v1xYYm27zEBmQupO9VQx9Kw==
 
 wait-port@^1.0.1:
   version "1.0.4"

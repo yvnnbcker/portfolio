@@ -10,7 +10,7 @@
                 <b>{{ info.teamtitle }}</b>
                 <div class="team-container">
                     <slot/>
-                    <a :href="info.href1" class="no-style"><img :src=info.team1 class="teammember"/></a>
+                    <a :href="info.href1" class="no-style"><img v-if="info.team1!==undefined" :src=info.team1 class="teammember"/></a>
                     <a :href="info.href2" class="no-style"><img v-if="info.team2!==undefined" :src=info.team2 class="teammember"/></a>
                     <a :href="info.href3" class="no-style"><img v-if="info.team3!==undefined" :src=info.team3 class="teammember"/></a>
                     <a :href="info.href4" class="no-style"><img v-if="info.team4!==undefined" :src=info.team4 class="teammember"/></a>
@@ -48,6 +48,5 @@
                 <Buttonicon icon="arrow-right" color="accent-new" :href="info.href" :class="info.buttoncolor" class="buttonsmall-icon">{{ info.buttontext }}</Buttonicon>
             </div>
         </div>
-        <Line />
     </div>
 </template>

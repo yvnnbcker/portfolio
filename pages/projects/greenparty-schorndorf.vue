@@ -17,7 +17,8 @@
         href="https://gruene-schorndorf.de/"
         buttontext="visit website">
         <ul><li>Lara Weiblen</li><li>Pauline Koch </li><li>Nils Jacobsen</li><li>Niklas Buchfink</li></ul></Infobox>
-      <div class="grid2 extra-padding extra-margin">
+        <Sectiontitle>main focus</Sectiontitle>
+        <div class="grid2 extra-padding extra-margin">
         <ImageText
           headline="Design & Development">
           As visual orientation of the local association of the Green Party in Schorndorf, served the main party website. The already existing style guide was applied to the overall wesbdesign, this included typography and colors. Playful illustrations were made for a young appearance. The website was implemented by using Kirby CMS and responsive for three different viewports.
@@ -28,28 +29,7 @@
         </ImageText>
       </div>
       <Sectiontitle>impressions</Sectiontitle>
-      <div class="grid2">
-          <ImageUno
-          img="/gruene-gallery1.png"
-          alt="screenshot of green party schorndorf website"
-          desc="landingpage"
-          />
-          <ImageUno
-          img="/gruene-gallery2.png"
-          alt="screenshot of green party schorndorf website"
-          desc="newesr articles and upcoming events events"
-          />
-          <ImageUno
-          img="/gruene-gallery3.png"
-          alt="screenshot of green party schorndorf website"
-          desc="values of green party and how to join"
-          />
-          <ImageUno
-          img="/gruene-gallery4.png"
-          alt="screenshot of green party schorndorf website"
-          desc="footer with call to action and slogan"
-          />
-      </div>
+      <Green/>
       <div class="note">*Note: Sadly, in meantime the website was moved back from Kirby CMS to Wordpress due to too high maintenance of php updates. Someone else is hosting now the page. This is the reason why the live version of the website doesn't look like the gallery images anymore if you click the link below.</div>
       </div>
     </div>

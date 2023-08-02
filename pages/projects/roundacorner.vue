@@ -20,6 +20,7 @@
         href="https://roundacorner.design/"
         buttontext="visit agency"
         />
+        <Sectiontitle>main focus</Sectiontitle>
       <div class="grid2 extra-padding extra-margin">
         <ImageText
           headline="Design">

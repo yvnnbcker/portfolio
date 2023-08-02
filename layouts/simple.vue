@@ -1,7 +1,7 @@
 <template>
         <main>
             <Background />
-            <Navigation />
+            <Nav />
             <div class="content simple-layout">
                 <slot />    
             </div>  

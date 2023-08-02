@@ -19,16 +19,17 @@
         href="https://www.blum.com/"
         buttontext="visit website"
         />
+      <Sectiontitle>overview</Sectiontitle>
       <div class="grid2 extra-padding">
         <ImageText
-          headline="Problem?"
+          headline="Problem"
           img="/blum_icons-old.png"
           alt="image of old blum icons"
           desc="icons before redesign">
           The previous icons look very different – especially in terms of size, stroke width and style. Therefore, they did not result in a harmonious visual language.
         </ImageText>
         <ImageText
-          headline="Solution!"
+          headline="Solution"
           img="/blum_icons-new.png"
           alt="image ofnew blum icons"
           desc="icons after redesign">

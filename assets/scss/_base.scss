@@ -266,6 +266,7 @@ li {
   }
 }
 .note {
+  padding-top: $xs; 
   @include info;
 }
 

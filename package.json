@@ -16,6 +16,6 @@
   },
   "dependencies": {
     "@img-comparison-slider/vue": "^8.0.0",
-    "vue-slick-carousel": "^1.0.6"
+    "vue3-carousel": "^0.3.1"
   }
 }

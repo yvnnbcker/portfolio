@@ -9,7 +9,7 @@
         </Head>
         <main>
             <Background />
-            <Navigation />            
+            <Nav />            
             <div class="content">
                 <slot />    
             </div>  
