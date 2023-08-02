@@ -597,6 +597,9 @@ footer {
   h3 {
     padding-bottom: $nano;
   }
+  @media screen and (max-width: 600px) {
+    width: 100%;
+  }
 }
 
 //SLIDER
