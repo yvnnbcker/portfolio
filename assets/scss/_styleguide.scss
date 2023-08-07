@@ -450,8 +450,6 @@ footer {
             padding-bottom: $xs;
             li {
               display: flex;
-              flex-direction: row;
-              justify-content: space-between;
             }
           }
         }
@@ -460,14 +458,12 @@ footer {
           flex-direction: column;
           @media screen and (max-width: 600px) {
             padding-bottom: $xs;
-            flex-direction: row;
-            justify-content: space-between;
           }
           .socialmedia {
             display: flex;
             flex-direction: row;
             @media screen and (max-width: 600px) {
-              a{
+              a {
                 margin-right: $s;
               }
             }
@@ -493,7 +489,7 @@ footer {
               padding: 0 $nano;
               @media screen and (max-width: 600px) {
                 margin: 0;
-                padding: $nano;
+                padding: 0 $nano;
                 color: $vibrantviolet;
               }
             }   
